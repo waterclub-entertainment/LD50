@@ -14,20 +14,22 @@ public class AttackMob : BaseMob
     }
 
     public float attackInterval = 1.0f;
+    public float minAttackRange = 2.0f;
+    public float maxAttackRange = 3.0f;
 
     public override MobState UpdateState()
     {
-        state = base.UpdateState();
+        MobState state = base.UpdateState();
 
         if (state == MobState.AGGRESSIVE)
         {
-            if (playerDist > 1)
-                state = MobState.CHASING;
+            if (playerDist > maxAttackRange)
+                return MobState.CHASING;
         }
         else if (state == MobState.CHASING)
         {
-            if (playerDist < 0.5)
-                state = MobState.AGGRESSIVE;
+            if (playerDist < minAttackRange)
+                return MobState.AGGRESSIVE;
         }
         
         return state;
@@ -56,13 +58,13 @@ public class AttackMob : BaseMob
     public override void OnIdle()
     {
         //maximum half rotation in each direction when idle.
-        transform.forward = Quaternion.Euler(0, (Random.value - 0.5f) * Time.deltaTime, 0) * transform.forward;
+        transform.forward = Quaternion.Euler(0, (Random.value - 0.5f) * angularSpeed * Time.deltaTime, 0) * transform.forward;
         transform.position += transform.forward * speed * Time.deltaTime;
     }
     public override void OnAggressive()
     {
         turnTowardsPlayer();
-        if (playerDist < 1.0f)
+        if (playerDist < maxAttackRange)
             Debug.Log("Attack");
     }
     public override void OnChasing()

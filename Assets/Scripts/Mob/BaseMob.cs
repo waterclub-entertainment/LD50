@@ -23,20 +23,20 @@ public class BaseMob : MonoBehaviour
     public MobState state
     {
         get { return _state; }
-        set { _state = value; if (_state != value) Debug.Log("[Mob State] Transfering " + this.name + " from " + _state.ToString() + " to " + value.ToString()); }
     }
+
 
     public float viewDist = 20;
     public float fov = 90;
     public float angularSpeed = 1.0f;
     public float speed = 1.0f;
 
-    public float aggression = 10.0f;
+    public float aggression = 5.0f;
     private float sinceLastSeen = 0.0f;
 
     public int health = 2;
 
-    protected float playerDist;
+    public float playerDist;
 
     public virtual MobState UpdateState()
     {
@@ -110,19 +110,25 @@ public class BaseMob : MonoBehaviour
 
     public void turnTowardsPlayer()
     {
-        Vector3 d = player.transform.position - transform.position;
+        Vector3 d = (player.transform.position - transform.position).normalized;
         double angle = Math.Atan2(transform.forward.z - d.z, transform.forward.x - d.x);
-        Debug.Log(angle);
-        if (angle < 0)
-            transform.forward = Quaternion.Euler(0, angularSpeed * Time.deltaTime, 0) * transform.forward;
-        else
-            transform.forward = Quaternion.Euler(0, -angularSpeed * Time.deltaTime, 0) * transform.forward;
+        float mult = 1.0f;
+        //rotate faster if behind.
+        if (Math.Abs(angle) > Math.PI / 2)
+            mult = 2.0f;
+        Vector3 newDir = Vector3.RotateTowards(transform.forward, d, angularSpeed * Time.deltaTime * mult, 0.0f);
+        newDir.y = 0;
+        transform.forward = newDir.normalized;
     }
     public void moveTowardsPlayer()
     {
-        //Allows moonwalking
         Vector3 d = (player.transform.position - transform.position).normalized;
-        transform.position += d * speed * Time.deltaTime;
+        double angle = Vector3.Angle(d, transform.forward);
+        //Is "in front"
+        if (angle < 90.0f)
+        {
+            transform.position += d * speed * Time.deltaTime;
+        }
     }
 
 
@@ -136,7 +142,10 @@ public class BaseMob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        state = UpdateState();
+        MobState _s = UpdateState();
+        if (state != _s)
+            Debug.Log("[Mob State] Transfering " + this.name + " from " + state.ToString() + " to " + _s.ToString());
+        _state = _s;
 
         switch (state)
         {
