@@ -68,10 +68,5 @@ public class AttackMob : BaseMob
     {
         Debug.Log("ATTACK");
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 }
