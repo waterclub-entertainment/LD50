@@ -39,6 +39,11 @@ public class PlayerControls : MonoBehaviour {
         } else if (direction.x > 0) {
             spriteRenderer.flipX = false;
         }
+        if (direction.z < 0) {
+            animator.SetFloat("Direction_z", -1);
+        } else if (direction.z > 0) {
+            animator.SetFloat("Direction_z", 1);
+        }
         Vector3 velocity = Quaternion.Euler(0, 45, 0) * direction * movementMultiplier * speed;
         characterController.Move(velocity * Time.deltaTime);
 
