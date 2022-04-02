@@ -1,18 +1,13 @@
 fileFormatVersion: 2
-guid: 8e5e97261246f7c4d998fd30beeefe27
+guid: 3d75f1d0e2647954a835a90927127d2a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-<<<<<<< HEAD
     enableMipMap: 0
     sRGBTexture: 1
-=======
-    enableMipMap: 1
-    sRGBTexture: 0
->>>>>>> Olli
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -55,15 +50,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-<<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-=======
-  alphaIsTransparency: 0
-  spriteTessellationDetail: -1
-  textureType: 1
->>>>>>> Olli
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
