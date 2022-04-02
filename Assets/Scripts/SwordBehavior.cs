@@ -8,12 +8,11 @@ public class SwordBehavior : MonoBehaviour
     //States the sword operates on with respective 
     private enum SwordState
     {
-        ORBITING = 0,
-        HOVERING = 1,
+        ORBITING,
+        HOVERING,
 
-        MOVING_TO = 2,
-        RETURNING = 3,
-        MOVING = 2 //this  is the bitmask for moving or not moving
+        MOVING_TO,
+        RETURNING
     }
     private SwordState state = SwordState.ORBITING;
 
@@ -22,7 +21,7 @@ public class SwordBehavior : MonoBehaviour
     public GameObject player;
     
     //Orbit Data
-        public float rot_speed = 0.01f;
+        public float rot_speed = 1f;
         //the distance between character and sword
         private float _dist = 2.0f;
         public float dist
@@ -39,7 +38,7 @@ public class SwordBehavior : MonoBehaviour
         }
 
     //Movement Data
-        private float moveSpeed;
+        public float moveSpeed = 2;
         private Vector3 moveVector;
 
     // Start is called before the first frame update
@@ -65,14 +64,14 @@ public class SwordBehavior : MonoBehaviour
     private void prepare_return()
     {
         //return to last orbit point
-        moveVector = orbit_pt();
-        transfer_state(SwordState.MOVING);
+        moveVector = player.transform.position + orbit_pt() * _dist;
+        transfer_state(SwordState.RETURNING);
     }
 
     //move object to point
     public void moveTo(Vector3 point)
     {
-        if (0 < (state & SwordState.MOVING))
+        if (state == SwordState.ORBITING)
         {
             moveVector = point;
             transfer_state(SwordState.MOVING_TO);
@@ -84,6 +83,7 @@ public class SwordBehavior : MonoBehaviour
     //down the line will update animation states as well
     private bool transfer_state(in SwordState in_state)
     {
+        Debug.Log("Transfering from " + state.ToString() + " -> " + in_state.ToString());
         if (state == SwordState.ORBITING)
         {
             //accept valid state transform
@@ -100,12 +100,8 @@ public class SwordBehavior : MonoBehaviour
             if (in_state == SwordState.HOVERING)
             {
                 //Sword returns after half a second
+                state = SwordState.HOVERING;
                 Invoke("prepare_return", 0.5f);
-            }
-            //accept valid state transform
-            else if (in_state == SwordState.ORBITING)
-            {
-                state = SwordState.ORBITING;
             }
             else
                 return false;
@@ -113,16 +109,23 @@ public class SwordBehavior : MonoBehaviour
         else if (state == SwordState.HOVERING)
         {
             //accept valid state transform
-            if (in_state == SwordState.MOVING_TO)
+            if (in_state == SwordState.RETURNING)
             {
-                state = SwordState.MOVING_TO;
+                state = SwordState.RETURNING;
             }
             else
                 return false;
         }
-        //this accounts for returning
-        else
-            return false;
+        else if (state == SwordState.RETURNING)
+        {
+            //accept valid state transform
+            if (in_state == SwordState.ORBITING)
+            {
+                state = SwordState.ORBITING;
+            }
+            else
+                return false;
+        }
         return true;
     }
 
@@ -132,30 +135,45 @@ public class SwordBehavior : MonoBehaviour
         if (state == SwordState.ORBITING)
         {
             //normalize using distance
-            angle += (float) (rot_speed / (2 * Math.PI * _dist));
+            angle += (float)(rot_speed * Time.deltaTime / (2 * Math.PI * _dist));
         }
-        else if ((state & SwordState.MOVING) != 0)
+        else if (state == SwordState.MOVING_TO)
         {
-            Vector3 d = transform.position - moveVector;
+            Vector3 d = moveVector - transform.position;
             //should this state be in the state transfer?
-            if (d.magnitude <= moveSpeed)
+            if (d.magnitude <= moveSpeed * Time.deltaTime)
             {
+                //arrive at point
                 transform.position += d;
 
-                if (state == SwordState.MOVING_TO)
-                    transfer_state(SwordState.HOVERING);
-                else if (state == SwordState.RETURNING)
-                    transfer_state(SwordState.ORBITING);
+                //transfer state to arrival, this should be handled separately??
+                transfer_state(SwordState.HOVERING);
             }
             else
             {
                 Vector3 dir = d.normalized;
-                transform.position += dir * moveSpeed;
+                transform.position += dir * moveSpeed * Time.deltaTime;
             }
         }
-        else if (state == SwordState.HOVERING)
+        else if (state == SwordState.RETURNING)
         {
-            //Nothing yet really
+            moveVector = player.transform.position + orbit_pt() * _dist;
+
+            Vector3 d = moveVector - transform.position;
+            //should this state be in the state transfer?
+            if (d.magnitude <= moveSpeed * Time.deltaTime)
+            {
+                //arrive at point
+                transform.position += d;
+
+                //transfer state to arrival, this should be handled separately??
+                transfer_state(SwordState.ORBITING);
+            }
+            else
+            {
+                Vector3 dir = d.normalized;
+                transform.position += dir * moveSpeed * Time.deltaTime;
+            }
         }
     }
 }
