@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  sprite: {fileID: 8286816230568428354}
   rot_speed: 4
   moveSpeed: 56
 --- !u!54 &4744000174149372472
