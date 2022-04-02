@@ -6,6 +6,7 @@ public class AttackMob : BaseMob
 {
     public float minAttackRange = 2.0f;
     public float maxAttackRange = 3.0f;
+    public Animator animator;
 
     public override MobState UpdateState()
     {
@@ -55,12 +56,17 @@ public class AttackMob : BaseMob
     {
         turnTowardsPlayer();
         if (playerDist < maxAttackRange)
-            Debug.Log("Attack");
+            animator.SetTrigger("Attack");
     }
     public override void OnChasing()
     {
         turnTowardsPlayer();
         moveTowardsPlayer();
+    }
+
+    public void OnApplyAttack()
+    {
+        Debug.Log("ATTACK");
     }
 
     // Start is called before the first frame update

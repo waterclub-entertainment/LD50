@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 1385171301}
   - component: {fileID: 1385171300}
   - component: {fileID: 1385171304}
+  - component: {fileID: 1385171305}
   m_Layer: 0
   m_Name: Mob
   m_TagString: Mob
@@ -336,6 +337,26 @@ MonoBehaviour:
   health: 2
   minAttackRange: 2
   maxAttackRange: 3
+  animator: {fileID: 1385171305}
+--- !u!95 &1385171305
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385171299}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15924a02b86a40e42a0fea5e12b84865, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1771221057
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7005921448184967214, guid: 10072bc9d51c24a49a076dbedf125a97, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10072bc9d51c24a49a076dbedf125a97, type: 3}
 --- !u!1 &1900480600 stripped
@@ -671,3 +696,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50fe61762e3f8df49bead18ce408bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
