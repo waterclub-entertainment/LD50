@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walking
+  m_Name: Walking_b
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -17,25 +17,6 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: movementMultiplier
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -55,24 +36,43 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: movementMultiplier
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 1580db253d770f5458c9c0dfce1f584a, type: 3}
+      value: {fileID: 21300000, guid: 349238835a9d71668b14fdb51351d98b, type: 3}
     - time: 0.125
-      value: {fileID: 21300000, guid: daa90ce19483848d1bb7d314ba8ecbac, type: 3}
+      value: {fileID: 21300000, guid: 05af5799a22c7714dbf9200e15a2660b, type: 3}
     - time: 0.25
-      value: {fileID: 21300000, guid: 3a613b0dc86f0a94abee8e3ecdbbc3ec, type: 3}
+      value: {fileID: 21300000, guid: 771e7f681150e6976b0876d89e702dc0, type: 3}
     - time: 0.375
-      value: {fileID: 21300000, guid: 6baa27682683828c3a2811c66e638d74, type: 3}
+      value: {fileID: 21300000, guid: d53a715336e685c3eab3b8d89788af11, type: 3}
     - time: 0.5
-      value: {fileID: 21300000, guid: 1b30ce4566ace8ddead486d33e3218bb, type: 3}
+      value: {fileID: 21300000, guid: 05ccf799a628ba66a959f22b6ea73577, type: 3}
     - time: 0.625
-      value: {fileID: 21300000, guid: 9ae444f8dd872342884484b597ae469e, type: 3}
+      value: {fileID: 21300000, guid: 01529201dad4baa27ae86e4e71c5e880, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: af0c8f4482cabb3f398dccae190d5342, type: 3}
+      value: {fileID: 21300000, guid: 3b9f6d1510010612cb53721fb61a33b8, type: 3}
     - time: 0.875
-      value: {fileID: 21300000, guid: dfb3846a0f91cb884b048340a79a30e8, type: 3}
+      value: {fileID: 21300000, guid: fdacecd6f7f3f0c47996d448c88b3629, type: 3}
     attribute: m_Sprite
     path: Sprite
     classID: 212
@@ -106,14 +106,14 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 1580db253d770f5458c9c0dfce1f584a, type: 3}
-    - {fileID: 21300000, guid: daa90ce19483848d1bb7d314ba8ecbac, type: 3}
-    - {fileID: 21300000, guid: 3a613b0dc86f0a94abee8e3ecdbbc3ec, type: 3}
-    - {fileID: 21300000, guid: 6baa27682683828c3a2811c66e638d74, type: 3}
-    - {fileID: 21300000, guid: 1b30ce4566ace8ddead486d33e3218bb, type: 3}
-    - {fileID: 21300000, guid: 9ae444f8dd872342884484b597ae469e, type: 3}
-    - {fileID: 21300000, guid: af0c8f4482cabb3f398dccae190d5342, type: 3}
-    - {fileID: 21300000, guid: dfb3846a0f91cb884b048340a79a30e8, type: 3}
+    - {fileID: 21300000, guid: 349238835a9d71668b14fdb51351d98b, type: 3}
+    - {fileID: 21300000, guid: 05af5799a22c7714dbf9200e15a2660b, type: 3}
+    - {fileID: 21300000, guid: 771e7f681150e6976b0876d89e702dc0, type: 3}
+    - {fileID: 21300000, guid: d53a715336e685c3eab3b8d89788af11, type: 3}
+    - {fileID: 21300000, guid: 05ccf799a628ba66a959f22b6ea73577, type: 3}
+    - {fileID: 21300000, guid: 01529201dad4baa27ae86e4e71c5e880, type: 3}
+    - {fileID: 21300000, guid: 3b9f6d1510010612cb53721fb61a33b8, type: 3}
+    - {fileID: 21300000, guid: fdacecd6f7f3f0c47996d448c88b3629, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -141,25 +141,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: movementMultiplier
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -170,6 +151,25 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: canControl
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: movementMultiplier
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 22b09203912be8a81a92da8c9477fdb3, type: 3}
