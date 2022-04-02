@@ -123,6 +123,7 @@ public class BaseMob : MonoBehaviour
     public void moveTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
+        d.y = 0;
         double angle = Vector3.Angle(d, transform.forward);
         //Is "in front"
         if (angle < 90.0f)

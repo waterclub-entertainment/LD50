@@ -41,17 +41,24 @@ public class ProjectileBehavior : MonoBehaviour
     //Upon collision with another GameObject, this GameObject will reverse direction
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Hit by Projectile");
-        Destroy(gameObject);
-
-        MobTarget tgt = player.GetComponent<MobTarget>();
-
-        tgt.health -= 1;
-
-        if (tgt.health <= 0)
+        if (other.gameObject.tag == "Player")
         {
-            //To Be Changed
-            Debug.Log("YOU DIED");
+            Debug.Log("Hit by Projectile");
+            Destroy(gameObject);
+
+            MobTarget tgt = player.GetComponent<MobTarget>();
+
+            tgt.health -= 1;
+
+            if (tgt.health <= 0)
+            {
+                //To Be Changed
+                Debug.Log("YOU DIED");
+            }
+        }
+        else if (other.gameObject.name == "Sword")
+        {
+            Destroy(gameObject);
         }
     }
 }
