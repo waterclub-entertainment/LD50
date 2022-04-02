@@ -28,6 +28,7 @@ public class BaseMob : MonoBehaviour
 
     public float viewDist = 20;
     public float fov = 90;
+    public Vector3 viewVector;
     public float angularSpeed = 1.0f;
     public float speed = 1.0f;
 
@@ -45,7 +46,7 @@ public class BaseMob : MonoBehaviour
         playerDist = d.magnitude;
         d = d.normalized;
 
-        canSee = Vector3.Angle(d, transform.forward) < fov && playerDist < viewDist;
+        canSee = Vector3.Angle(d, viewVector) < fov && playerDist < viewDist;
 
         if (state == MobState.IDLE)
         {
@@ -111,20 +112,22 @@ public class BaseMob : MonoBehaviour
     public void turnTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
-        double angle = Math.Atan2(transform.forward.z - d.z, transform.forward.x - d.x);
+        double angle = Math.Atan2(viewVector.z - d.z, viewVector.x - d.x);
         float mult = 1.0f;
         //rotate faster if behind.
         if (Math.Abs(angle) > Math.PI / 2)
             mult = 2.0f;
-        Vector3 newDir = Vector3.RotateTowards(transform.forward, d, angularSpeed * Time.deltaTime * mult, 0.0f);
+        Vector3 newDir = Vector3.RotateTowards(viewVector, d, angularSpeed * Time.deltaTime * mult, 0.0f);
         newDir.y = 0;
-        transform.forward = newDir.normalized;
+        viewVector = newDir.normalized;
+
+        Debug.Log(angle);
     }
     public void moveTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
         d.y = 0;
-        double angle = Vector3.Angle(d, transform.forward);
+        double angle = Vector3.Angle(d, viewVector);
         //Is "in front"
         if (angle < 90.0f)
         {
@@ -138,7 +141,7 @@ public class BaseMob : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         //Debug, to be removed, or replaced with a random rotation
-        transform.forward = new Vector3(0, 0, 1);
+        viewVector = new Vector3(0, 0, 1);
     }
 
     // Update is called once per frame

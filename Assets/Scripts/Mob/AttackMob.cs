@@ -49,8 +49,8 @@ public class AttackMob : BaseMob
     public override void OnIdle()
     {
         //maximum half rotation in each direction when idle.
-        transform.forward = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * transform.forward;
-        transform.position += transform.forward * speed * Time.deltaTime;
+        viewVector = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * viewVector;
+        transform.position += viewVector * speed * Time.deltaTime;
     }
     public override void OnAggressive()
     {

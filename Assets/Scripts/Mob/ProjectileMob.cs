@@ -51,14 +51,14 @@ public class ProjectileMob : AttackMob
     public override void OnEvading()
     {
         turnTowardsPlayer();
-        transform.position -= transform.forward * 0.8f * speed * Time.deltaTime;
+        transform.position -= viewVector * 0.8f * speed * Time.deltaTime;
     }
 
     //Animation Triggers
     new public void OnApplyAttack()
     {
         //spawn projectile in front of own position.
-        Instantiate(projectilePrefab, transform.position + transform.forward, transform.rotation);
+        Instantiate(projectilePrefab, transform.position + viewVector, transform.rotation);
     }
     public void OnFinishedAttack()
     {
