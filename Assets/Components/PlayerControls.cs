@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour {
 
+
+    public GameObject swordObject;
+    private SwordBehavior sword;
+
     public float speed = 10.0f;
     public Animator animator;
     public CharacterController characterController;
@@ -12,9 +16,11 @@ public class PlayerControls : MonoBehaviour {
     
     void Start() {
         direction = Vector3.zero;
+        sword = swordObject.GetComponent<SwordBehavior>();
     }
 
     void Update() {
+        //Movement
         Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         if (movement != Vector3.zero) {
             movement.Normalize();
@@ -35,5 +41,18 @@ public class PlayerControls : MonoBehaviour {
         }
         Vector3 velocity = Quaternion.Euler(0, 45, 0) * direction * movementMultiplier * speed;
         characterController.Move(velocity * Time.deltaTime);
+
+
+        //Click Handling
+        if (Input.GetMouseButtonDown(0))
+        {
+            Plane plane = new Plane(Vector3.up, 0);
+            float distance;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (plane.Raycast(ray, out distance))
+            {
+                sword.moveTo(ray.GetPoint(distance));
+            }
+        }
     }
 }
