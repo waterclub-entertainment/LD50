@@ -74,6 +74,7 @@ public class SwordBehavior : MonoBehaviour
         if (state == SwordState.ORBITING)
         {
             moveVector = point;
+            moveVector.y = player.transform.position.y;
             transfer_state(SwordState.MOVING_TO);
         }
 
