@@ -4,16 +4,6 @@ using UnityEngine;
 
 public class AttackMob : BaseMob
 {
-
-    public enum AttackState
-    {
-        IDLE,
-        CHARGING,
-        ATTACKING,
-        COOLDOWN
-    }
-
-    public float attackInterval = 1.0f;
     public float minAttackRange = 2.0f;
     public float maxAttackRange = 3.0f;
 

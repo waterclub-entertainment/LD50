@@ -36,7 +36,7 @@ public class BaseMob : MonoBehaviour
 
     public int health = 2;
 
-    public float playerDist;
+    protected float playerDist;
 
     public virtual MobState UpdateState()
     {

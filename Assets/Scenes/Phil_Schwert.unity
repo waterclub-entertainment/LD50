@@ -331,11 +331,9 @@ MonoBehaviour:
   viewDist: 20
   fov: 90
   angularSpeed: 1
-  speed: 0.2
+  speed: 1
   aggression: 10
   health: 2
-  playerDist: 0
-  attackInterval: 1
   minAttackRange: 2
   maxAttackRange: 3
 --- !u!1 &1771221057
@@ -661,3 +659,15 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7005921448184967214, guid: 10072bc9d51c24a49a076dbedf125a97, type: 3}
   m_PrefabInstance: {fileID: 1900480599}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1900480601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900480600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fe61762e3f8df49bead18ce408bf05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
