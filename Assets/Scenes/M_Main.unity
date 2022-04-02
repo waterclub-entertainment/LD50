@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 640308917}
   - component: {fileID: 640308918}
   m_Layer: 0
-  m_Name: lauf-rh
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93cda6101f6a31b3e9363c5a3460365b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1580db253d770f5458c9c0dfce1f584a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -526,6 +526,7 @@ MonoBehaviour:
   speed: 10
   animator: {fileID: 6013519241382368114}
   characterController: {fileID: 6013519241382368120}
+  spriteRenderer: {fileID: 640308918}
   movementMultiplier: 0
   canControl: 1
 --- !u!1 &6013519241382368117
