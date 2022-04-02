@@ -330,11 +330,14 @@ MonoBehaviour:
   player: {fileID: 1900480600}
   viewDist: 20
   fov: 90
-  angularSpeed: 20
-  speed: 1
+  angularSpeed: 1
+  speed: 0.2
   aggression: 10
   health: 2
+  playerDist: 0
   attackInterval: 1
+  minAttackRange: 2
+  maxAttackRange: 3
 --- !u!1 &1771221057
 GameObject:
   m_ObjectHideFlags: 0
