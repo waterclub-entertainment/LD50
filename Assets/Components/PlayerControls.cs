@@ -4,6 +4,7 @@ public class PlayerControls : MonoBehaviour {
 
     public float speed = 10.0f;
     public Animator animator;
+    public CharacterController characterController;
     public float movementMultiplier = 0.0f;
     public bool canControl = true;
     private Vector3 direction; 
@@ -27,6 +28,6 @@ public class PlayerControls : MonoBehaviour {
             animator.SetTrigger("Dash");
         }
         Vector3 velocity = Quaternion.Euler(0, 45, 0) * direction * movementMultiplier * speed;
-        transform.Translate(velocity * Time.deltaTime);
+        characterController.Move(velocity * Time.deltaTime);
     }
 }
