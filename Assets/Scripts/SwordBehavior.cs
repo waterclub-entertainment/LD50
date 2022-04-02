@@ -19,6 +19,7 @@ public class SwordBehavior : MonoBehaviour
 
     //the reference center (the player)
     public GameObject player;
+    public GameObject sprite;
     
     //Orbit Data
         public float rot_speed = 1f;
@@ -65,6 +66,7 @@ public class SwordBehavior : MonoBehaviour
     {
         //return to last orbit point
         moveVector = player.transform.position + orbit_pt() * _dist;
+        sprite.transform.localRotation = Quaternion.AngleAxis(45f, Vector3.up) * Quaternion.AngleAxis(35.264f, Vector3.right);
         transfer_state(SwordState.RETURNING);
     }
 
@@ -75,6 +77,9 @@ public class SwordBehavior : MonoBehaviour
         {
             moveVector = point;
             moveVector.y = transform.position.y;
+            float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.z);
+            Debug.Log(angle);
+            sprite.transform.localRotation = Quaternion.AngleAxis(-angle / Mathf.PI * 180f - 90f, Vector3.up) * Quaternion.AngleAxis(90, Vector3.right);
             transfer_state(SwordState.MOVING_TO);
         }
 
