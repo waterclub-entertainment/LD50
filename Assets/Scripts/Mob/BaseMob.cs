@@ -178,15 +178,7 @@ public class BaseMob : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.name == "Sword")
-        {
-            OnReceiveDamage();
-        }
-    }
-
-    void OnCollisionStay(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.name == "Sword")
         {
