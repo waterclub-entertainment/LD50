@@ -136,7 +136,6 @@ public class BaseMob : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        Debug.Log(player);
         //Debug, to be removed, or replaced with a random rotation
         transform.forward = new Vector3(0, 0, 1);
     }
