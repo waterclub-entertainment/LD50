@@ -18,7 +18,7 @@ public class BaseMob : MonoBehaviour
     }
 
 
-    public GameObject player;
+    protected GameObject player;
     private MobState _state = MobState.IDLE;
     public MobState state
     {
@@ -135,6 +135,8 @@ public class BaseMob : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
+        Debug.Log(player);
         //Debug, to be removed, or replaced with a random rotation
         transform.forward = new Vector3(0, 0, 1);
     }
