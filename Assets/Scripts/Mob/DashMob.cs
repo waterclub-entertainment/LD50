@@ -162,12 +162,10 @@ public class DashMob : BaseMob
 
         //forward to state machine
         finishedCasting = true;
-        Debug.Log("Started Dashing");
     }
     //Forward to state machine
     public void OnDashEnd()
     {
         finishedDashing = true;
-        Debug.Log("Finished Dashing");
     }
 }
