@@ -33664,7 +33664,51 @@ PrefabInstance:
       objectReference: {fileID: 1651087304}
     - target: {fileID: 8481703769001151734, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[0].time
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[0].value
+      value: 0.29953003
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[0].inSlope
+      value: 0.37444934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[1].inSlope
+      value: 2.4185245
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[0].outSlope
+      value: 0.37444934
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[1].inWeight
+      value: 0.04583335
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[1].outSlope
+      value: 2.4185245
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481703769001151735, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: hurtCurve.m_Curve.Array.data[0].outWeight
+      value: 0.27083334
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
