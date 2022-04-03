@@ -12,8 +12,8 @@ public class PlayerControls : MonoBehaviour {
     public SpriteRenderer spriteRenderer;
     public float movementMultiplier = 0.0f;
     public bool canControl = true;
-    private Vector3 direction; 
-    
+    private Vector3 direction;
+
     void Start() {
         direction = Vector3.zero;
         sword = swordObject.GetComponent<SwordBehavior>();
@@ -51,7 +51,7 @@ public class PlayerControls : MonoBehaviour {
 
 
         //Click Handling
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
             if (sword.canMove())
             {
