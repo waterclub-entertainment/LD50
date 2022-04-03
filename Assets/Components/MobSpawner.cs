@@ -11,13 +11,15 @@ public class MobSpawner : MonoBehaviour {
 
     public MobDifficulty[] mobs;
     public AnimationCurve difficultyCurve;
-    public float difficulty = 0.0f;
     public float spawnMinDistance = 10f;
     public float spawnMaxDistance = 20f;
+    public float difficultyGain = 1/60f;
 
     private float spawningThreshold = 0.0f;
+    public float difficulty = 0.0f;
 
     void Update() {
+        difficulty += difficultyGain * Time.deltaTime;
         spawningThreshold -= Time.deltaTime * difficultyCurve.Evaluate(difficulty);
         while (spawningThreshold <= 0) {
             float totalWeight = 0f;

@@ -8,6 +8,7 @@ public class ProjectileBehavior : MonoBehaviour
     private GameObject player;
     public float angularSpeed = 4.0f;
     public float speed = 8.0f;
+    public int damagePerHit = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +49,7 @@ public class ProjectileBehavior : MonoBehaviour
 
             MobTarget tgt = player.GetComponent<MobTarget>();
 
-            tgt.health -= 1;
+            tgt.health -= damagePerHit;
 
             if (tgt.health <= 0)
             {

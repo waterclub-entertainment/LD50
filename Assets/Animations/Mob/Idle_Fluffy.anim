@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Attack_SkellyBat
+  m_Name: Idle_Fluffy
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 6a1753dfb6c0c6cabb76b0287edeffaf, type: 3}
-    - time: 0.0625
-      value: {fileID: 21300000, guid: f5b011ca2e542d06cb0cd39b9e298acb, type: 3}
-    - time: 0.125
-      value: {fileID: 21300000, guid: 0dd37c89f7688ca6ab195ad3d737265c, type: 3}
-    - time: 0.1875
-      value: {fileID: 21300000, guid: cbffae460267f3a4c94140b5a5d7b2d8, type: 3}
+      value: {fileID: 21300000, guid: 8ff8af5dec3dd9b4eb5315b2d22dcebe, type: 3}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 852b7fe5b8684834d897649f53e9d772, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 0d22599ee321c46438f8f8d043fc33f5, type: 3}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 06dffb75a4ea9114ba9a05bad202e1e9, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 59599634a81e61047960bd76171d7b9f, type: 3}
+    - time: 0.8333333
+      value: {fileID: 21300000, guid: 3265519ec8be29946a9048994f4021af, type: 3}
     attribute: m_Sprite
-    path: Skelly_Bat
+    path: Sprite
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 16
+  m_SampleRate: 6
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -39,28 +43,30 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4220003852
+      path: 850496168
       attribute: 0
       script: {fileID: 0}
       typeID: 212
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 6a1753dfb6c0c6cabb76b0287edeffaf, type: 3}
-    - {fileID: 21300000, guid: f5b011ca2e542d06cb0cd39b9e298acb, type: 3}
-    - {fileID: 21300000, guid: 0dd37c89f7688ca6ab195ad3d737265c, type: 3}
-    - {fileID: 21300000, guid: cbffae460267f3a4c94140b5a5d7b2d8, type: 3}
+    - {fileID: 21300000, guid: 8ff8af5dec3dd9b4eb5315b2d22dcebe, type: 3}
+    - {fileID: 21300000, guid: 852b7fe5b8684834d897649f53e9d772, type: 3}
+    - {fileID: 21300000, guid: 0d22599ee321c46438f8f8d043fc33f5, type: 3}
+    - {fileID: 21300000, guid: 06dffb75a4ea9114ba9a05bad202e1e9, type: 3}
+    - {fileID: 21300000, guid: 59599634a81e61047960bd76171d7b9f, type: 3}
+    - {fileID: 21300000, guid: 3265519ec8be29946a9048994f4021af, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -74,11 +80,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.125
-    functionName: OnApplyAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

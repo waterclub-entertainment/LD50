@@ -41,13 +41,18 @@ public class ProjectileMob : AttackMob
 
         return state;
     }
+
     public override void OnCasting()
     {
         turnTowardsPlayer();
         if (playerDist < maxAttackRange)
             animator.SetTrigger("Attack");
     }
-
+    //When not shooting really not do anything i guess
+    public override void OnAggressive()
+    {
+        turnTowardsPlayer();
+    }
     public override void OnEvading()
     {
         turnTowardsPlayer();

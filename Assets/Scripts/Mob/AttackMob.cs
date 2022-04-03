@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AttackMob : BaseMob
 {
+    public int damagePerHit = 1;
     public float minAttackRange = 2.0f;
     public float maxAttackRange = 3.0f;
     public Animator animator;
@@ -66,9 +67,7 @@ public class AttackMob : BaseMob
 
     public void OnApplyAttack()
     {
-        MobTarget tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
-
-        tgt.health -= 1;
+        tgt.health -= damagePerHit;
 
         if (tgt.health <= 0)
         {
