@@ -63,7 +63,6 @@ public class AttackMob : BaseMob
     }
     public override void OnChasing()
     {
-        turnTowardsPlayer();
         moveTowardsPlayer();
     }
 
