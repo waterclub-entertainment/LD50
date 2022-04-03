@@ -4,7 +4,7 @@ public class AntiRotation : MonoBehaviour {
 
     public Vector3 rotation;
 
-    void Update() {
+    void LateUpdate() {
         transform.rotation = Quaternion.Euler(rotation);
     }
 }
