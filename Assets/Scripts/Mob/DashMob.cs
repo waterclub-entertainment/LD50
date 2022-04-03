@@ -20,6 +20,7 @@ public class DashMob : BaseMob
     //Dash properties
     private bool hasHit;
     private Vector3 dashStart;
+    public int damagePerHit = 1;
 
     public Animator animator;
 
@@ -114,7 +115,7 @@ public class DashMob : BaseMob
         {
             //not really an animation here, is there?
             hasHit = true;
-            tgt.health -= 1;
+            tgt.health -= damagePerHit;
             animator.SetTrigger("Hit");
 
             if (tgt.health <= 0)
