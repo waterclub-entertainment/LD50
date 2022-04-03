@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MobTarget : MonoBehaviour
 {
@@ -23,6 +22,14 @@ public class MobTarget : MonoBehaviour
         scoreObj.addScore(difficultyMultiplier * Time.deltaTime);
     }
 
+    public void Hurt(float damage) {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("Scenes/GameOver");
+        }
+    }
 
 
     void OnControllerColliderHit(ControllerColliderHit hit)
@@ -30,13 +37,7 @@ public class MobTarget : MonoBehaviour
         Debug.Log("Hit detected");
         if (hit.gameObject.tag == "Mob")
         {
-            health -= mobDamage;
-
-            if (health <= 0)
-            {
-                //To Be Changed
-                Debug.Log("YOU DIED");
-            }
+            Hurt(mobDamage);
         }
     }
 }

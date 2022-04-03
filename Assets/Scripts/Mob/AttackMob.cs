@@ -67,13 +67,7 @@ public class AttackMob : BaseMob
 
     public void OnApplyAttack()
     {
-        tgt.health -= damagePerHit;
-
-        if (tgt.health <= 0)
-        {
-            //To Be Changed
-            Debug.Log("YOU DIED");
-        }
+        tgt.Hurt(damagePerHit);
     }
     
 }

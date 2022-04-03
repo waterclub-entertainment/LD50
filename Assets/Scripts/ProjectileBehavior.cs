@@ -49,13 +49,7 @@ public class ProjectileBehavior : MonoBehaviour
 
             MobTarget tgt = player.GetComponent<MobTarget>();
 
-            tgt.health -= damagePerHit;
-
-            if (tgt.health <= 0)
-            {
-                //To Be Changed
-                Debug.Log("YOU DIED");
-            }
+            tgt.Hurt(damagePerHit);
         }
         else if (other.gameObject.name == "Sword")
         {
