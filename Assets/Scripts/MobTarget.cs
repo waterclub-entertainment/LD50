@@ -1,35 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MobTarget : MonoBehaviour
 {
-    public int health = 10;
+    public float health = 10f;
+    public float mobDamage = 1f;
+    public float healthLoss = 0.3f;
 
-    // Start is called before the first frame update
+    public HighscoreData scoreObj;
+    public float difficultyMultiplier = 1.0f;
+    public float difficultyOffset = 0.0f;
+
     void Start()
     {
-        
+        scoreObj.SetScore(difficultyOffset);
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        health -= healthLoss * Time.deltaTime;
+        scoreObj.addScore(difficultyMultiplier * Time.deltaTime);
     }
+
+    public void Hurt(float damage) {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("Scenes/GameOver");
+        }
+    }
+
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
         Debug.Log("Hit detected");
         if (hit.gameObject.tag == "Mob")
         {
-            health -= 1;
-
-            if (health <= 0)
-            {
-                //To Be Changed
-                Debug.Log("YOU DIED");
-            }
+            Hurt(mobDamage);
         }
     }
 }

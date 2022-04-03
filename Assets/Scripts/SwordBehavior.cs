@@ -62,8 +62,19 @@ public class SwordBehavior : MonoBehaviour
         transform.position = player.transform.position + orbit_pt() * _dist;
     }
 
-    private void prepare_return()
+    public bool canReturn()
     {
+        return state == SwordState.MOVING_TO || state == SwordState.HOVERING;
+    }
+    public bool canMove()
+    {
+        return state != SwordState.RETURNING;
+    }
+
+    public void prepare_return()
+    {
+        if (!canReturn())
+            return;
         //return to last orbit point
         moveVector = player.transform.position + orbit_pt() * _dist;
         sprite.transform.localRotation = Quaternion.AngleAxis(45f, Vector3.up) * Quaternion.AngleAxis(35.264f, Vector3.right);
@@ -73,12 +84,12 @@ public class SwordBehavior : MonoBehaviour
     //move object to point
     public void moveTo(Vector3 point)
     {
-        if (state == SwordState.ORBITING)
+        if (canMove())
         {
             moveVector = point;
             moveVector.y = transform.position.y;
             float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.z);
-            Debug.Log(angle);
+
             sprite.transform.localRotation = Quaternion.AngleAxis(-angle / Mathf.PI * 180f - 90f, Vector3.up) * Quaternion.AngleAxis(90, Vector3.right);
             transfer_state(SwordState.MOVING_TO);
         }
@@ -102,20 +113,26 @@ public class SwordBehavior : MonoBehaviour
         }
         else if (state == SwordState.MOVING_TO)
         {
+            if (in_state == SwordState.ORBITING)
+                return false;
             //Hovering is a temporary state
-            if (in_state == SwordState.HOVERING)
+            else if (in_state == SwordState.HOVERING)
             {
                 //Sword returns after half a second
                 state = SwordState.HOVERING;
-                Invoke("prepare_return", 0.5f);
+                Invoke("prepare_return", 1.0f);
             }
             else
-                return false;
+                state = in_state;
         }
         else if (state == SwordState.HOVERING)
         {
             //accept valid state transform
-            if (in_state == SwordState.RETURNING)
+            if (in_state == SwordState.MOVING_TO)
+            {
+                state = SwordState.MOVING_TO;
+            }
+            else if (in_state == SwordState.RETURNING)
             {
                 state = SwordState.RETURNING;
             }

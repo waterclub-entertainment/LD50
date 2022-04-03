@@ -41,24 +41,31 @@ public class ProjectileMob : AttackMob
 
         return state;
     }
+
     public override void OnCasting()
     {
         turnTowardsPlayer();
         if (playerDist < maxAttackRange)
             animator.SetTrigger("Attack");
     }
-
-    public override void OnEvading()
+    //When not shooting really not do anything i guess
+    public override void OnAggressive()
     {
         turnTowardsPlayer();
-        transform.position -= viewVector * 0.8f * speed * Time.deltaTime;
+    }
+    public override void OnEvading()
+    {
+        if (navMeshAgent.remainingDistance < 0.2) {
+            Vector2 r = Random.insideUnitCircle;
+            navMeshAgent.destination = transform.position + (transform.position - player.transform.position).normalized * 2f;
+        }
     }
 
     //Animation Triggers
     new public void OnApplyAttack()
     {
         //spawn projectile in front of own position.
-        Instantiate(projectilePrefab, transform.position + viewVector, transform.rotation);
+        Instantiate(projectilePrefab, transform.position + transform.forward, transform.rotation);
     }
     public void OnFinishedAttack()
     {

@@ -50,7 +50,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b87bed7073b1832da95508e6f8865c9f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ad13e5ae01bfd5d49b49178bc21b91b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a1753dfb6c0c6cabb76b0287edeffaf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -110,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7959973170785929406}
   m_LocalRotation: {x: 0.27984518, y: 0.3647056, z: -0.11591566, w: 0.88047725}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1868314858382525768}
@@ -163,11 +163,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewDist: 20
   fov: 90
-  viewVector: {x: 0, y: 0, z: 0}
   angularSpeed: 1
   speed: 1
   aggression: 5
+  scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
+  score: 10
   health: 2
+  damagePerHit: 1
   minAttackRange: 2
   maxAttackRange: 3
   animator: {fileID: 7959973170785929400}

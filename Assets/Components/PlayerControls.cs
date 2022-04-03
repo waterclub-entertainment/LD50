@@ -31,8 +31,10 @@ public class PlayerControls : MonoBehaviour {
         } else {
             animator.SetBool("Moving", false);
         }
-        if (Input.GetMouseButtonDown(1)) {
+        if (Input.GetKeyDown("space")) {
             animator.SetTrigger("Dash");
+            if (sword.canReturn())
+                sword.prepare_return();
         }
         if (direction.x < 0) {
             spriteRenderer.flipX = true;
@@ -51,12 +53,15 @@ public class PlayerControls : MonoBehaviour {
         //Click Handling
         if (Input.GetMouseButtonDown(0))
         {
-            Plane plane = new Plane(Vector3.up, 0);
-            float distance;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (plane.Raycast(ray, out distance))
+            if (sword.canMove())
             {
-                sword.moveTo(ray.GetPoint(distance));
+                Plane plane = new Plane(Vector3.up, 0);
+                float distance;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (plane.Raycast(ray, out distance))
+                {
+                    sword.moveTo(ray.GetPoint(distance));
+                }
             }
         }
     }
