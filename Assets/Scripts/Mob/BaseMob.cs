@@ -37,6 +37,9 @@ public class BaseMob : MonoBehaviour
     public float aggression = 5.0f;
     private float sinceLastSeen = 0.0f;
 
+    public HighscoreData scoreObj;
+    public int score = 10;
+
     public int health = 2;
 
     protected float playerDist;
@@ -83,7 +86,7 @@ public class BaseMob : MonoBehaviour
     public virtual void OnKill()
     {
         //Handle events on the actual kill such as heal.
-        Debug.Log("KILL, BLOOD, CARNAGE");
+        scoreObj.addScore(score);
     }
 
     public virtual void OnReceiveDamage()
