@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class MobSpawner : MonoBehaviour {
 
@@ -14,6 +15,7 @@ public class MobSpawner : MonoBehaviour {
     public float spawnMinDistance = 10f;
     public float spawnMaxDistance = 20f;
     public float difficultyGain = 1/60f;
+    public Tilemap floor;
 
     private float spawningThreshold = 0.0f;
     public float difficulty = 0.0f;
@@ -58,10 +60,21 @@ public class MobSpawner : MonoBehaviour {
     }
 
     private void Spawn(GameObject mob) {
-        GameObject player = GameObject.FindWithTag("Player");
-        float dist = Random.value * (spawnMaxDistance - spawnMinDistance) + spawnMinDistance;
-        float spawnAngle = Random.value * Mathf.PI * 2;
-        Vector3 position = new Vector3(Mathf.Cos(spawnAngle), 0, Mathf.Sin(spawnAngle)) * dist + player.transform.position;
-        Instantiate(mob, position, Quaternion.identity);
+        // 20 tries
+        for (int i = 0; i < 20; i++) {
+            GameObject player = GameObject.FindWithTag("Player");
+            float dist = Random.value * (spawnMaxDistance - spawnMinDistance) + spawnMinDistance;
+            float spawnAngle = Random.value * Mathf.PI * 2;
+            Vector3 position = new Vector3(Mathf.Cos(spawnAngle), 0, Mathf.Sin(spawnAngle)) * dist + player.transform.position;
+            Vector3Int tilePosition = floor.WorldToCell(position);
+            tilePosition.y = 0;
+            if (floor.GetTile(tilePosition) == null) {
+                continue;
+            }
+            position = floor.CellToWorld(tilePosition);
+            position.y = 1f;
+            Instantiate(mob, position, Quaternion.identity);
+            return;
+        }
     }
 }

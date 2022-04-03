@@ -29758,6 +29758,10 @@ PrefabInstance:
       propertyPath: swordObject
       value: 
       objectReference: {fileID: 559203439}
+    - target: {fileID: 8481703769001151734, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: floor
+      value: 
+      objectReference: {fileID: 1051999661}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
 --- !u!4 &1747361928 stripped
