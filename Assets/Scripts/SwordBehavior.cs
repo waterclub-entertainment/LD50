@@ -62,8 +62,19 @@ public class SwordBehavior : MonoBehaviour
         transform.position = player.transform.position + orbit_pt() * _dist;
     }
 
-    private void prepare_return()
+    public bool canReturn()
     {
+        return state == SwordState.MOVING_TO || state == SwordState.HOVERING;
+    }
+    public bool isOrbiting()
+    {
+        return state == SwordState.ORBITING;
+    }
+
+    public void prepare_return()
+    {
+        if (!canReturn())
+            return;
         //return to last orbit point
         moveVector = player.transform.position + orbit_pt() * _dist;
         sprite.transform.localRotation = Quaternion.AngleAxis(45f, Vector3.up) * Quaternion.AngleAxis(35.264f, Vector3.right);
@@ -108,6 +119,11 @@ public class SwordBehavior : MonoBehaviour
                 //Sword returns after half a second
                 state = SwordState.HOVERING;
                 Invoke("prepare_return", 0.5f);
+            }
+            else if (in_state == SwordState.RETURNING)
+            {
+                //early return
+                state = SwordState.RETURNING;
             }
             else
                 return false;
