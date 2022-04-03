@@ -40,11 +40,13 @@ public class DashMob : BaseMob
         }
         else if (state == MobState.CHASING)
         {
+            animator.SetTrigger("Abort");
             if (playerDist < comfortableRange)
                 return MobState.AGGRESSIVE;
         }
         else if (state == MobState.CASTING)
         {
+            animator.ResetTrigger("Abort");
             //This transfer is delegate to the animation event. this is just so the state transitions are in one function.
             if (finishedCasting)
             {
@@ -60,6 +62,7 @@ public class DashMob : BaseMob
         }
         else if (state == MobState.DASHING)
         {
+            animator.ResetTrigger("Arrived");
             //This transfer is delegate to the animation event. this is just so the state transitions are in one function.
             if (finishedDashing)
                 return MobState.AGGRESSIVE;
@@ -97,11 +100,13 @@ public class DashMob : BaseMob
     
     public override void OnChasing()
     {
+        animator.SetTrigger("Abort");
         turnTowardsPlayer();
         moveTowardsPlayer();
     }
     public override void OnCasting()
     {
+        finishedCasting = false;
         turnTowardsPlayer();
         if (playerDist < dashRange)
         {
@@ -111,12 +116,12 @@ public class DashMob : BaseMob
     }
     public override void OnDashing()
     {
+        finishedDashing = false;
         if ((!hasHit) && playerDist < collisionDistance)
         {
-            //not really an animation here, is there?
             hasHit = true;
             tgt.health -= damagePerHit;
-            animator.SetTrigger("Hit");
+            animator.SetTrigger("Arrived");
 
             if (tgt.health <= 0)
             {
