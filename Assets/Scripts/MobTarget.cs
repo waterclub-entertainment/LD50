@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class MobTarget : MonoBehaviour
 {
-    public int health = 10;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float health = 10f;
+    public float mobDamage = 1f;
+    public float healthLoss = 0.3f;
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        health -= healthLoss * Time.deltaTime;
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
@@ -23,7 +18,7 @@ public class MobTarget : MonoBehaviour
         Debug.Log("Hit detected");
         if (hit.gameObject.tag == "Mob")
         {
-            health -= 1;
+            health -= mobDamage;
 
             if (health <= 0)
             {
