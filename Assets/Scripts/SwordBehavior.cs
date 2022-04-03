@@ -66,9 +66,9 @@ public class SwordBehavior : MonoBehaviour
     {
         return state == SwordState.MOVING_TO || state == SwordState.HOVERING;
     }
-    public bool isOrbiting()
+    public bool canMove()
     {
-        return state == SwordState.ORBITING;
+        return state != SwordState.RETURNING;
     }
 
     public void prepare_return()
@@ -84,7 +84,7 @@ public class SwordBehavior : MonoBehaviour
     //move object to point
     public void moveTo(Vector3 point)
     {
-        if (state == SwordState.ORBITING)
+        if (canMove())
         {
             moveVector = point;
             moveVector.y = transform.position.y;
@@ -113,25 +113,26 @@ public class SwordBehavior : MonoBehaviour
         }
         else if (state == SwordState.MOVING_TO)
         {
+            if (in_state == SwordState.ORBITING)
+                return false;
             //Hovering is a temporary state
-            if (in_state == SwordState.HOVERING)
+            else if (in_state == SwordState.HOVERING)
             {
                 //Sword returns after half a second
                 state = SwordState.HOVERING;
-                Invoke("prepare_return", 0.5f);
-            }
-            else if (in_state == SwordState.RETURNING)
-            {
-                //early return
-                state = SwordState.RETURNING;
+                Invoke("prepare_return", 1.0f);
             }
             else
-                return false;
+                state = in_state;
         }
         else if (state == SwordState.HOVERING)
         {
             //accept valid state transform
-            if (in_state == SwordState.RETURNING)
+            if (in_state == SwordState.MOVING_TO)
+            {
+                state = SwordState.MOVING_TO;
+            }
+            else if (in_state == SwordState.RETURNING)
             {
                 state = SwordState.RETURNING;
             }
