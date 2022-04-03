@@ -66,8 +66,6 @@ public class AttackMob : BaseMob
 
     public void OnApplyAttack()
     {
-        MobTarget tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
-
         tgt.health -= 1;
 
         if (tgt.health <= 0)

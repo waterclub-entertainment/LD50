@@ -14,11 +14,13 @@ public class BaseMob : MonoBehaviour
         EVADING,
         STALKING,
         CASTING,
+        COOLDOWN,
         DASHING
     }
 
 
     protected GameObject player;
+    protected MobTarget tgt;
     private MobState _state = MobState.IDLE;
     public MobState state
     {
@@ -28,7 +30,7 @@ public class BaseMob : MonoBehaviour
 
     public float viewDist = 20;
     public float fov = 90;
-    public Vector3 viewVector;
+    protected Vector3 viewVector;
     public float angularSpeed = 1.0f;
     public float speed = 1.0f;
 
@@ -120,8 +122,6 @@ public class BaseMob : MonoBehaviour
         Vector3 newDir = Vector3.RotateTowards(viewVector, d, angularSpeed * Time.deltaTime * mult, 0.0f);
         newDir.y = 0;
         viewVector = newDir.normalized;
-
-        Debug.Log(angle);
     }
     public void moveTowardsPlayer()
     {
@@ -140,6 +140,7 @@ public class BaseMob : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
         //Debug, to be removed, or replaced with a random rotation
         viewVector = new Vector3(0, 0, 1);
     }
