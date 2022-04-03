@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AttackMob : BaseMob
 {
+    public int damagePerHit = 1;
     public float minAttackRange = 2.0f;
     public float maxAttackRange = 3.0f;
     public Animator animator;
@@ -48,9 +49,11 @@ public class AttackMob : BaseMob
 
     public override void OnIdle()
     {
+        if (navMeshAgent.remainingDistance < 0.2) {
+            Vector2 r = Random.insideUnitCircle;
+            navMeshAgent.destination = transform.position + (transform.forward + new Vector3(r.x, 0, r.y)) * 2.0f;
+        }
         //maximum half rotation in each direction when idle.
-        viewVector = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * viewVector;
-        transform.position += viewVector * speed * Time.deltaTime;
     }
     public override void OnAggressive()
     {
@@ -60,21 +63,12 @@ public class AttackMob : BaseMob
     }
     public override void OnChasing()
     {
-        turnTowardsPlayer();
         moveTowardsPlayer();
     }
 
     public void OnApplyAttack()
     {
-        MobTarget tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
-
-        tgt.health -= 1;
-
-        if (tgt.health <= 0)
-        {
-            //To Be Changed
-            Debug.Log("YOU DIED");
-        }
+        tgt.Hurt(damagePerHit);
     }
     
 }

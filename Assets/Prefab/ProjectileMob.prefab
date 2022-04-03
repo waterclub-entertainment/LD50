@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 287852753424258893}
   - component: {fileID: 287852753424258892}
   - component: {fileID: 2296027751442010544}
+  - component: {fileID: 8460731299267573999}
   m_Layer: 0
   m_Name: ProjectileMob
   m_TagString: Untagged
@@ -63,11 +64,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewDist: 45
   fov: 120
-  viewVector: {x: 0, y: 0, z: 0}
   angularSpeed: 1
   speed: 1
   aggression: 5
+  scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
+  score: 10
   health: 5
+  navMeshAgent: {fileID: 8460731299267573999}
+  damagePerHit: 1
   minAttackRange: 20
   maxAttackRange: 30
   animator: {fileID: 287852753424258892}
@@ -107,6 +111,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!195 &8460731299267573999
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287852753424258899}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6182136686334345506
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,6 +143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3071229616989224854}
   - component: {fileID: 571153633653777274}
+  - component: {fileID: 8193201316291782762}
   m_Layer: 0
   m_Name: Maxbert
   m_TagString: Untagged
@@ -157,7 +184,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b87bed7073b1832da95508e6f8865c9f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,3 +216,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8193201316291782762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6182136686334345506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe4adff9cb24f92287b314b8eb50009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 35.264, y: 45, z: 0}

@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.AI;
 
 public class BaseMob : MonoBehaviour
 {
@@ -14,11 +12,13 @@ public class BaseMob : MonoBehaviour
         EVADING,
         STALKING,
         CASTING,
+        COOLDOWN,
         DASHING
     }
 
 
     protected GameObject player;
+    protected MobTarget tgt;
     private MobState _state = MobState.IDLE;
     public MobState state
     {
@@ -28,14 +28,17 @@ public class BaseMob : MonoBehaviour
 
     public float viewDist = 20;
     public float fov = 90;
-    public Vector3 viewVector;
-    public float angularSpeed = 1.0f;
+    public float angularSpeed = 120f;
     public float speed = 1.0f;
 
     public float aggression = 5.0f;
     private float sinceLastSeen = 0.0f;
 
+    public HighscoreData scoreObj;
+    public int score = 10;
+
     public int health = 2;
+    public NavMeshAgent navMeshAgent;
 
     protected float playerDist;
 
@@ -46,7 +49,7 @@ public class BaseMob : MonoBehaviour
         playerDist = d.magnitude;
         d = d.normalized;
 
-        canSee = Vector3.Angle(d, viewVector) < fov && playerDist < viewDist;
+        canSee = Vector3.Angle(d, transform.forward) < fov && playerDist < viewDist;
 
         if (state == MobState.IDLE)
         {
@@ -81,7 +84,7 @@ public class BaseMob : MonoBehaviour
     public virtual void OnKill()
     {
         //Handle events on the actual kill such as heal.
-        Debug.Log("KILL, BLOOD, CARNAGE");
+        scoreObj.addScore(score);
     }
 
     public virtual void OnReceiveDamage()
@@ -112,27 +115,20 @@ public class BaseMob : MonoBehaviour
     public void turnTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
-        double angle = Math.Atan2(viewVector.z - d.z, viewVector.x - d.x);
+        float angle = Vector2.SignedAngle(new Vector2(d.x, d.z), new Vector2(transform.forward.x, transform.forward.z));
+        Debug.Log(angle);
         float mult = 1.0f;
         //rotate faster if behind.
-        if (Math.Abs(angle) > Math.PI / 2)
+        if (Mathf.Abs(angle) > 90)
             mult = 2.0f;
-        Vector3 newDir = Vector3.RotateTowards(viewVector, d, angularSpeed * Time.deltaTime * mult, 0.0f);
-        newDir.y = 0;
-        viewVector = newDir.normalized;
-
-        Debug.Log(angle);
+        if (Mathf.Abs(angle) < 5)
+            return;
+        transform.Rotate(new Vector3(0, angularSpeed * Time.deltaTime * mult * Mathf.Sign(angle), 0));
     }
+
     public void moveTowardsPlayer()
     {
-        Vector3 d = (player.transform.position - transform.position).normalized;
-        d.y = 0;
-        double angle = Vector3.Angle(d, viewVector);
-        //Is "in front"
-        if (angle < 90.0f)
-        {
-            transform.position += d * speed * Time.deltaTime;
-        }
+        navMeshAgent.destination = player.transform.position;
     }
 
 
@@ -140,16 +136,20 @@ public class BaseMob : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
+        navMeshAgent.speed = speed;
+        navMeshAgent.angularSpeed = angularSpeed;
         //Debug, to be removed, or replaced with a random rotation
-        viewVector = new Vector3(0, 0, 1);
     }
 
     // Update is called once per frame
     void Update()
     {
         MobState _s = UpdateState();
-        if (state != _s)
+        if (state != _s) {
             Debug.Log("[Mob State] Transfering " + this.name + " from " + state.ToString() + " to " + _s.ToString());
+            navMeshAgent.ResetPath();
+        }
         _state = _s;
 
         switch (state)
