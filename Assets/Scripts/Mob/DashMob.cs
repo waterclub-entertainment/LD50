@@ -7,7 +7,7 @@ public class DashMob : BaseMob
     //defines a range to avoid state flip flopping
     public float comfortableRange = 10.0f;
     //maximum range of dash
-    public float dashRange = 15.0f;
+    public float dashTime = 2.0f;
     //collision distance
     public float collisionDistance = 2.0f;
 
@@ -19,7 +19,7 @@ public class DashMob : BaseMob
     private bool finishedDashing;
     //Dash properties
     private bool hasHit;
-    private Vector3 dashStart;
+    private float dashTimeLeft = 0.0f;
     public int damagePerHit = 1;
 
     public Animator animator;
@@ -94,10 +94,8 @@ public class DashMob : BaseMob
     public override void OnIdle()
     {
         //maximum half rotation in each direction when idle.
-        if (navMeshAgent.remainingDistance < 0.2) {
-            Vector2 r = Random.insideUnitCircle;
-            navMeshAgent.destination = transform.position + (transform.forward + new Vector3(r.x, 0, r.y)) * 2.0f;
-        }
+        viewVector = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * viewVector;
+        transform.position += viewVector * speed * Time.deltaTime;
     }
     
     public override void OnChasing()
@@ -118,7 +116,6 @@ public class DashMob : BaseMob
     }
     public override void OnDashing()
     {
-        // TODO: Collisions (Matthias)
         finishedDashing = false;
         if ((!hasHit) && playerDist < collisionDistance)
         {
@@ -129,16 +126,16 @@ public class DashMob : BaseMob
         }
 
         //Computed in Code not in state machine to easier manipulate the distance
-        float d = dashRange - (dashStart - transform.position).magnitude;
-        if (d <= dashSpeed * Time.deltaTime)
+        float d = dashTimeLeft - Time.deltaTime;
+        if (d >= 0.0f)
         {
             //arrive at point
-            transform.position += transform.forward * d;
+            transform.position += viewVector * d;
             animator.SetTrigger("Arrived");
         }
         else
         {
-            transform.position += transform.forward * dashSpeed * Time.deltaTime;
+            transform.position += viewVector * dashSpeed * Time.deltaTime;
         }
     }
 
@@ -146,9 +143,8 @@ public class DashMob : BaseMob
     //When not shooting really not do anything i guess
     public override void OnAggressive()
     {
-        // TODO: Collisions (Matthias)
         Vector3 d = player.transform.position - transform.position;
-        Vector3 side = transform.right;
+        Vector3 side = Vector3.Cross(Vector3.up, viewVector).normalized; //strave and try to move towards player
 
         if (Vector3.Angle(d, side) < Vector3.Angle(d, -side))
             transform.position += side * speed * Time.deltaTime;
@@ -163,7 +159,7 @@ public class DashMob : BaseMob
     {
         //setup dash and collision state
         hasHit = false;
-        dashStart = transform.position;
+        dashTimeLeft = dashTime;
 
         //forward to state machine
         finishedCasting = true;
