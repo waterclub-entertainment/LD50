@@ -8,7 +8,7 @@ public class GameOverController : MonoBehaviour {
     public InputField nameInput;
 
     void Start() {
-        scoreText.text = "Score :" + (int) highscoreData.score;
+        scoreText.text = "Score: " + (int) highscoreData.score;
     }
 
     public void OnSubmitScore() {

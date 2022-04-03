@@ -120,14 +120,9 @@ public class DashMob : BaseMob
         if ((!hasHit) && playerDist < collisionDistance)
         {
             hasHit = true;
-            tgt.health -= damagePerHit;
             animator.SetTrigger("Arrived");
 
-            if (tgt.health <= 0)
-            {
-                //To Be Changed
-                Debug.Log("YOU DIED");
-            }
+            tgt.Hurt(damagePerHit);
         }
 
         //Computed in Code not in state machine to easier manipulate the distance
