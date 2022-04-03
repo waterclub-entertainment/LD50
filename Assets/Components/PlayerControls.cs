@@ -33,6 +33,8 @@ public class PlayerControls : MonoBehaviour {
         }
         if (Input.GetKeyDown("space")) {
             animator.SetTrigger("Dash");
+            if (sword.canReturn())
+                sword.prepare_return();
         }
         if (direction.x < 0) {
             spriteRenderer.flipX = true;
@@ -51,7 +53,7 @@ public class PlayerControls : MonoBehaviour {
         //Click Handling
         if (Input.GetMouseButtonDown(0))
         {
-            if (sword.isOrbiting())
+            if (sword.canMove())
             {
                 Plane plane = new Plane(Vector3.up, 0);
                 float distance;
@@ -61,19 +63,6 @@ public class PlayerControls : MonoBehaviour {
                     sword.moveTo(ray.GetPoint(distance));
                 }
             }
-            //THIS IS THE RECALL WITH LEFT CLICK
-            /*
-            else if (sword.canReturn())
-            {
-                sword.prepare_return();
-            }
-            */
-        }
-        //Recall with right click
-        else if (Input.GetMouseButtonDown(1))
-        {
-            if (sword.canReturn())
-                sword.prepare_return();
         }
     }
 }
