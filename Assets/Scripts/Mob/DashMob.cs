@@ -94,8 +94,10 @@ public class DashMob : BaseMob
     public override void OnIdle()
     {
         //maximum half rotation in each direction when idle.
-        viewVector = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * viewVector;
-        transform.position += viewVector * speed * Time.deltaTime;
+        if (navMeshAgent.remainingDistance < 0.2) {
+            Vector2 r = Random.insideUnitCircle;
+            navMeshAgent.destination = transform.position + (transform.forward + new Vector3(r.x, 0, r.y)) * 2.0f;
+        }
     }
     
     public override void OnChasing()
@@ -116,6 +118,7 @@ public class DashMob : BaseMob
     }
     public override void OnDashing()
     {
+        // TODO: Collisions (Matthias)
         finishedDashing = false;
         if ((!hasHit) && playerDist < collisionDistance)
         {
@@ -130,12 +133,12 @@ public class DashMob : BaseMob
         if (d <= dashSpeed * Time.deltaTime)
         {
             //arrive at point
-            transform.position += viewVector * d;
+            transform.position += transform.forward * d;
             animator.SetTrigger("Arrived");
         }
         else
         {
-            transform.position += viewVector * dashSpeed * Time.deltaTime;
+            transform.position += transform.forward * dashSpeed * Time.deltaTime;
         }
     }
 
@@ -143,8 +146,9 @@ public class DashMob : BaseMob
     //When not shooting really not do anything i guess
     public override void OnAggressive()
     {
+        // TODO: Collisions (Matthias)
         Vector3 d = player.transform.position - transform.position;
-        Vector3 side = Vector3.Cross(Vector3.up, viewVector).normalized; //strave and try to move towards player
+        Vector3 side = transform.right;
 
         if (Vector3.Angle(d, side) < Vector3.Angle(d, -side))
             transform.position += side * speed * Time.deltaTime;

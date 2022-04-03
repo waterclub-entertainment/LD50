@@ -55,15 +55,17 @@ public class ProjectileMob : AttackMob
     }
     public override void OnEvading()
     {
-        turnTowardsPlayer();
-        transform.position -= viewVector * 0.8f * speed * Time.deltaTime;
+        if (navMeshAgent.remainingDistance < 0.2) {
+            Vector2 r = Random.insideUnitCircle;
+            navMeshAgent.destination = transform.position + (transform.position - player.transform.position).normalized * 2f;
+        }
     }
 
     //Animation Triggers
     new public void OnApplyAttack()
     {
         //spawn projectile in front of own position.
-        Instantiate(projectilePrefab, transform.position + viewVector, transform.rotation);
+        Instantiate(projectilePrefab, transform.position + transform.forward, transform.rotation);
     }
     public void OnFinishedAttack()
     {

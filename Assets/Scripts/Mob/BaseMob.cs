@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.AI;
 
 public class BaseMob : MonoBehaviour
 {
@@ -30,7 +28,6 @@ public class BaseMob : MonoBehaviour
 
     public float viewDist = 20;
     public float fov = 90;
-    protected Vector3 viewVector;
     public float angularSpeed = 1.0f;
     public float speed = 1.0f;
 
@@ -41,6 +38,7 @@ public class BaseMob : MonoBehaviour
     public int score = 10;
 
     public int health = 2;
+    public NavMeshAgent navMeshAgent;
 
     protected float playerDist;
 
@@ -51,7 +49,7 @@ public class BaseMob : MonoBehaviour
         playerDist = d.magnitude;
         d = d.normalized;
 
-        canSee = Vector3.Angle(d, viewVector) < fov && playerDist < viewDist;
+        canSee = Vector3.Angle(d, transform.forward) < fov && playerDist < viewDist;
 
         if (state == MobState.IDLE)
         {
@@ -117,25 +115,17 @@ public class BaseMob : MonoBehaviour
     public void turnTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
-        double angle = Math.Atan2(viewVector.z - d.z, viewVector.x - d.x);
+        float angle = Mathf.Atan2(transform.forward.z - d.z, transform.forward.x - d.x);
         float mult = 1.0f;
         //rotate faster if behind.
-        if (Math.Abs(angle) > Math.PI / 2)
+        if (Mathf.Abs(angle) > Mathf.PI / 2)
             mult = 2.0f;
-        Vector3 newDir = Vector3.RotateTowards(viewVector, d, angularSpeed * Time.deltaTime * mult, 0.0f);
-        newDir.y = 0;
-        viewVector = newDir.normalized;
+        transform.Rotate(new Vector3(0, angularSpeed * Time.deltaTime * mult * Mathf.Sign(angle), 0));
     }
+
     public void moveTowardsPlayer()
     {
-        Vector3 d = (player.transform.position - transform.position).normalized;
-        d.y = 0;
-        double angle = Vector3.Angle(d, viewVector);
-        //Is "in front"
-        if (angle < 90.0f)
-        {
-            transform.position += d * speed * Time.deltaTime;
-        }
+        navMeshAgent.destination = player.transform.position;
     }
 
 
@@ -144,16 +134,19 @@ public class BaseMob : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
+        navMeshAgent.speed = speed;
+        navMeshAgent.angularSpeed = angularSpeed / Mathf.PI * 180f;
         //Debug, to be removed, or replaced with a random rotation
-        viewVector = new Vector3(0, 0, 1);
     }
 
     // Update is called once per frame
     void Update()
     {
         MobState _s = UpdateState();
-        if (state != _s)
+        if (state != _s) {
             Debug.Log("[Mob State] Transfering " + this.name + " from " + state.ToString() + " to " + _s.ToString());
+            navMeshAgent.ResetPath();
+        }
         _state = _s;
 
         switch (state)
