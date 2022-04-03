@@ -24,20 +24,20 @@ public class MobSpawner : MonoBehaviour {
         while (spawningThreshold <= 0) {
             float totalWeight = 0f;
             foreach (MobDifficulty mob in mobs) {
-                if (mob.minDifficulty >= difficulty) {
+                if (mob.minDifficulty <= difficulty) {
                     totalWeight += mob.spawningRate;
                 }
             }
             if (totalWeight == 0f) {
                 // No mob can be selected, just do nothing I guess
-                Debug.Log("shit");
+                Debug.Log("shit1");
                 spawningThreshold = 0f;
                 break;
             } else {
                 float r = Random.value;
                 bool worked = false;
                 foreach (MobDifficulty mob in mobs) {
-                    if (mob.minDifficulty >= difficulty) {
+                    if (mob.minDifficulty <= difficulty) {
                         r -= mob.spawningRate;
                         if (r <= 0) {
                             spawningThreshold += 1 / mob.spawningRate;
