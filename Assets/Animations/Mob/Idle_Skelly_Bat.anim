@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: ad13e5ae01bfd5d49b49178bc21b91b9, type: 3}
+      value: {fileID: 21300000, guid: 6a1753dfb6c0c6cabb76b0287edeffaf, type: 3}
     - time: 0.25
-      value: {fileID: 21300000, guid: 7f03470a8fe3a1b4096efe628e444449, type: 3}
+      value: {fileID: 21300000, guid: f5b011ca2e542d06cb0cd39b9e298acb, type: 3}
     - time: 0.5
-      value: {fileID: 21300000, guid: 5efbda8bfbae10c4894f2a843e1847b7, type: 3}
+      value: {fileID: 21300000, guid: 0dd37c89f7688ca6ab195ad3d737265c, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: bf9902aa1b02f214eb06bb87f8276e5d, type: 3}
+      value: {fileID: 21300000, guid: cbffae460267f3a4c94140b5a5d7b2d8, type: 3}
     attribute: m_Sprite
     path: Skelly_Bat
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: ad13e5ae01bfd5d49b49178bc21b91b9, type: 3}
-    - {fileID: 21300000, guid: 7f03470a8fe3a1b4096efe628e444449, type: 3}
-    - {fileID: 21300000, guid: 5efbda8bfbae10c4894f2a843e1847b7, type: 3}
-    - {fileID: 21300000, guid: bf9902aa1b02f214eb06bb87f8276e5d, type: 3}
+    - {fileID: 21300000, guid: 6a1753dfb6c0c6cabb76b0287edeffaf, type: 3}
+    - {fileID: 21300000, guid: f5b011ca2e542d06cb0cd39b9e298acb, type: 3}
+    - {fileID: 21300000, guid: 0dd37c89f7688ca6ab195ad3d737265c, type: 3}
+    - {fileID: 21300000, guid: cbffae460267f3a4c94140b5a5d7b2d8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Networking;
+using SimpleJSON;
 
 public class HighscoreLoader : MonoBehaviour
 {
@@ -11,42 +13,48 @@ public class HighscoreLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string text = "";
-        int[] scoreArray = HighScores.scores();
-        for(int i = 0; i < 10; i++)
-        {
-            text += scoreArray[i] + "\n";
-        }
-        scores.text = text;
-        text = "";
-        string[] nameArray = HighScores.names();
-        for(int i = 0; i < 10; i++)
-        {
-            text += nameArray[i] + "\n";
-        }
-        names.text = text;
+        GenerateRequest();
+        Invoke("GenerateRequest", 10f);
     }
 
     // Update is called once per frame
     void Update()
     {
 
-    }   
-}
-
-public static class HighScores
-{
-    private static int[] scoreArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    private static string[] nameArray = {"Alice", "Bob", "Carol", "Dave", "Eve",
-            "Mallet", "Oscar", "Peggy", "Trudy", "Trent"};
-
-    public static int[] scores()
-    {
-        return scoreArray;
     }
 
-    public static string[] names()
+    private string URL = "v2202001110922105851.happysrv.de:42069/highscores";
+
+    public void GenerateRequest()
     {
-        return nameArray;
+        StartCoroutine(ProcessRequest(URL));
+    }
+    private int N = 10;
+
+    private IEnumerator ProcessRequest(string uri)
+    {
+        using (UnityWebRequest request = UnityWebRequest.Get(uri))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isNetworkError)
+            {
+                Debug.Log(request.error);
+            }
+            else
+            {
+                JSONNode data =
+                    JSON.Parse(request.downloadHandler.text);
+                string namestext = "";
+                string scorestext = "";
+                for (int i = 0; i < N; i++)
+                {
+                    namestext += data[i]["name"] + "\n";
+                    scorestext += data[i]["score"] + "\n";
+                }
+                names.text = namestext;
+                scores.text = scorestext;
+            }
+        }
     }
 }
