@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 783930229}
   - component: {fileID: 783930228}
   m_Layer: 5
-  m_Name: HighScoreText
+  m_Name: Title HighScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1081,7 +1081,7 @@ GameObject:
   - component: {fileID: 1227764521}
   - component: {fileID: 1227764520}
   m_Layer: 5
-  m_Name: NameText
+  m_Name: Title HighScore (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1172,9 +1172,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 0.1
-  m_fontSizeBase: 0.1
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 0
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1705,9 +1705,8 @@ GameObject:
   - component: {fileID: 1735293255}
   - component: {fileID: 1735293254}
   - component: {fileID: 1735293253}
-  - component: {fileID: 1735293256}
   m_Layer: 5
-  m_Name: NameCanvas
+  m_Name: Canvas (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1795,20 +1794,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1735293256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735293251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1cc5c891e515bfb228c619284da3849c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scores: {fileID: 1739926537}
-  names: {fileID: 1227764520}
 --- !u!1 &1739926535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,7 +1806,7 @@ GameObject:
   - component: {fileID: 1739926538}
   - component: {fileID: 1739926537}
   m_Layer: 5
-  m_Name: ScoreText
+  m_Name: Title HighScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1912,9 +1897,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 0.1
-  m_fontSizeBase: 0.1
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 0
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1974,7 +1959,7 @@ GameObject:
   - component: {fileID: 1804459887}
   - component: {fileID: 1804459886}
   m_Layer: 5
-  m_Name: HighScoreCanvas
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
