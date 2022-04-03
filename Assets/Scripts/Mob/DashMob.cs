@@ -94,7 +94,6 @@ public class DashMob : BaseMob
     public override void OnChasing()
     {
         animator.SetTrigger("Abort");
-        turnTowardsPlayer();
         moveTowardsPlayer();
     }
     public override void OnCasting()
@@ -103,6 +102,7 @@ public class DashMob : BaseMob
         turnTowardsPlayer();
         if (playerDist < 10.0f * dashTime)
         {
+            transform.LookAt(player.transform, Vector3.up);
             animator.SetTrigger("Attack");
         }
 
@@ -123,12 +123,12 @@ public class DashMob : BaseMob
         if (d >= 0.0f)
         {
             //arrive at point
-            transform.position += transform.forward * d;
+            GetComponent<CharacterController>().Move(transform.forward * d);
             animator.SetTrigger("Arrived");
         }
         else
         {
-            transform.position += transform.forward * dashSpeed * Time.deltaTime;
+            GetComponent<CharacterController>().Move(transform.forward * dashSpeed * Time.deltaTime);
         }
     }
 
@@ -140,9 +140,9 @@ public class DashMob : BaseMob
         Vector3 side = Vector3.Cross(Vector3.up, transform.forward).normalized; //strave and try to move towards player
 
         if (Vector3.Angle(d, side) < Vector3.Angle(d, -side))
-            transform.position += side * speed * Time.deltaTime;
+            GetComponent<CharacterController>().Move(side * speed * Time.deltaTime);
         else
-            transform.position -= side * speed * Time.deltaTime;
+            GetComponent<CharacterController>().Move(-side * speed * Time.deltaTime);
 
 
         turnTowardsPlayer();

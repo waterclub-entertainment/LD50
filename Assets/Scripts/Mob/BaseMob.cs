@@ -28,7 +28,7 @@ public class BaseMob : MonoBehaviour
 
     public float viewDist = 20;
     public float fov = 90;
-    public float angularSpeed = 1.0f;
+    public float angularSpeed = 120f;
     public float speed = 1.0f;
 
     public float aggression = 5.0f;
@@ -115,11 +115,14 @@ public class BaseMob : MonoBehaviour
     public void turnTowardsPlayer()
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
-        float angle = Mathf.Atan2(transform.forward.z - d.z, transform.forward.x - d.x);
+        float angle = Vector2.SignedAngle(new Vector2(d.x, d.z), new Vector2(transform.forward.x, transform.forward.z));
+        Debug.Log(angle);
         float mult = 1.0f;
         //rotate faster if behind.
-        if (Mathf.Abs(angle) > Mathf.PI / 2)
+        if (Mathf.Abs(angle) > 90)
             mult = 2.0f;
+        if (Mathf.Abs(angle) < 5)
+            return;
         transform.Rotate(new Vector3(0, angularSpeed * Time.deltaTime * mult * Mathf.Sign(angle), 0));
     }
 
@@ -135,7 +138,7 @@ public class BaseMob : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         tgt = player.GetComponent<MobTarget>(); //Mayhaps make static
         navMeshAgent.speed = speed;
-        navMeshAgent.angularSpeed = angularSpeed / Mathf.PI * 180f;
+        navMeshAgent.angularSpeed = angularSpeed;
         //Debug, to be removed, or replaced with a random rotation
     }
 
