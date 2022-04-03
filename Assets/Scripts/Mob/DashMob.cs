@@ -12,6 +12,7 @@ public class DashMob : BaseMob
     public float collisionDistance = 2.0f;
 
     //animation variable
+    //max is 10.0f
     public float dashSpeed = 1.0f;
 
     //State machine delegates
@@ -30,7 +31,7 @@ public class DashMob : BaseMob
 
         if (state == MobState.AGGRESSIVE)
         {
-            if (playerDist > dashRange)
+            if (playerDist > 10.0f * dashTime)
                 return MobState.CHASING;
             else
             {
@@ -54,7 +55,7 @@ public class DashMob : BaseMob
                 return MobState.DASHING;
             }
             //should it cancel once you move out of range?
-            else if (playerDist > dashRange)
+            else if (playerDist > 10.0f * dashTime)
             {
                 animator.SetTrigger("Abort");
                 return MobState.AGGRESSIVE;
@@ -90,14 +91,6 @@ public class DashMob : BaseMob
         base.OnReceiveDamage();
     }
 
-
-    public override void OnIdle()
-    {
-        //maximum half rotation in each direction when idle.
-        viewVector = Quaternion.Euler(0, (Random.value - 0.5f) * 90.0f * angularSpeed * Time.deltaTime, 0) * viewVector;
-        transform.position += viewVector * speed * Time.deltaTime;
-    }
-    
     public override void OnChasing()
     {
         animator.SetTrigger("Abort");
@@ -108,7 +101,7 @@ public class DashMob : BaseMob
     {
         finishedCasting = false;
         turnTowardsPlayer();
-        if (playerDist < dashRange)
+        if (playerDist < 10.0f * dashTime)
         {
             animator.SetTrigger("Attack");
         }
@@ -130,12 +123,12 @@ public class DashMob : BaseMob
         if (d >= 0.0f)
         {
             //arrive at point
-            transform.position += viewVector * d;
+            transform.position += transform.forward * d;
             animator.SetTrigger("Arrived");
         }
         else
         {
-            transform.position += viewVector * dashSpeed * Time.deltaTime;
+            transform.position += transform.forward * dashSpeed * Time.deltaTime;
         }
     }
 
@@ -144,7 +137,7 @@ public class DashMob : BaseMob
     public override void OnAggressive()
     {
         Vector3 d = player.transform.position - transform.position;
-        Vector3 side = Vector3.Cross(Vector3.up, viewVector).normalized; //strave and try to move towards player
+        Vector3 side = Vector3.Cross(Vector3.up, transform.forward).normalized; //strave and try to move towards player
 
         if (Vector3.Angle(d, side) < Vector3.Angle(d, -side))
             transform.position += side * speed * Time.deltaTime;

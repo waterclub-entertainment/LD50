@@ -157,8 +157,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  spawnMinDistance: 10
-  spawnMaxDistance: 20
+  spawnMinDistance: 20
+  spawnMaxDistance: 30
   difficultyGain: 0.016666668
   floor: {fileID: 0}
   difficulty: 0
