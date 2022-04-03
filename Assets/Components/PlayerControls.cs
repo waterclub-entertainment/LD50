@@ -55,11 +55,12 @@ public class PlayerControls : MonoBehaviour {
         {
             if (sword.canMove())
             {
-                Plane plane = new Plane(Vector3.up, 0);
+                Plane plane = new Plane(Vector3.up, -1);
                 float distance;
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (plane.Raycast(ray, out distance))
                 {
+                    Debug.Log(ray.GetPoint(distance));
                     sword.moveTo(ray.GetPoint(distance));
                 }
             }

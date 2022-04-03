@@ -34,7 +34,6 @@ public class MobTarget : MonoBehaviour
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        Debug.Log("Hit detected");
         if (hit.gameObject.tag == "Mob")
         {
             Hurt(mobDamage);
