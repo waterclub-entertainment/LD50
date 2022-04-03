@@ -106,11 +106,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  mobDamage: 1
-  healthLoss: 0.3
+  mobCollisionDamage: 1
   scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
   difficultyMultiplier: 1
   difficultyOffset: 0
+  hurtCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.29953003
+      inSlope: 0.37444934
+      outSlope: 0.37444934
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.27083334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2.4185245
+      outSlope: 2.4185245
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.04583335
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &8481703769001151734
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Phil_Schwert.unity
     guid: 5a3a0d2a8932bc542ad4b6a38bfa60dc
   - enabled: 1
-    path: Assets/Scenes/Map.unity
-    guid: af90f18503a899d4fb326d5436fa0cc9
-  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 2f7b4247b0811b0b8848a941f73bd788
   m_configObjects: {}

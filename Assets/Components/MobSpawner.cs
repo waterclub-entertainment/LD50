@@ -16,12 +16,17 @@ public class MobSpawner : MonoBehaviour {
     public float spawnMaxDistance = 20f;
     public float difficultyGain = 1/60f;
     public Tilemap floor;
-
+    
     private float spawningThreshold = 0.0f;
     public float difficulty = 0.0f;
 
+    void Start()
+    {
+    }
+
     void Update() {
         difficulty += difficultyGain * Time.deltaTime;
+        
         spawningThreshold -= Time.deltaTime * difficultyCurve.Evaluate(difficulty);
         while (spawningThreshold <= 0) {
             float totalWeight = 0f;

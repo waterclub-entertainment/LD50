@@ -88,7 +88,7 @@ public class SwordBehavior : MonoBehaviour
         {
             moveVector = point;
             moveVector.y = transform.position.y;
-            float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.z);
+            float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.x);
 
             sprite.transform.localRotation = Quaternion.AngleAxis(-angle / Mathf.PI * 180f - 90f, Vector3.up) * Quaternion.AngleAxis(90, Vector3.right);
             transfer_state(SwordState.MOVING_TO);
