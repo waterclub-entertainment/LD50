@@ -9,6 +9,7 @@ public class ProjectileBehavior : MonoBehaviour
     public float angularSpeed = 4.0f;
     public float speed = 8.0f;
     public int damagePerHit = 1;
+    public float liveTime = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +36,11 @@ public class ProjectileBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        liveTime -= Time.deltaTime;
+        if (liveTime <= 0) {
+            Destroy(gameObject);
+            return;
+        }
         turnTowardsPlayer();
         moveTowardsPlayer();
     }
