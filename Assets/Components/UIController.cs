@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour {
     public Sprite cracked;
     public Text score;
     public HighscoreData highscoreData;
+    public AudioClip breakSound;
 
     private bool isCracked = false;
     private int lastMainCrystalIndex = -1;
@@ -46,6 +47,9 @@ public class UIController : MonoBehaviour {
         if (!isCracked) {
             health.sprite = cracked;
             isCracked = true;
+            if (level == 0) {
+                GetComponent<AudioSource>().PlayOneShot(breakSound);
+            }
         }
         for (int i = 0; i < crystals.Length; i++) {
             if (i <= level) {

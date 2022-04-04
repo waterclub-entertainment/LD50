@@ -238,6 +238,8 @@ MonoBehaviour:
   health: 2
   navMeshAgent: {fileID: 2471033976741072821}
   dieSound: {fileID: 8300000, guid: 880ff0595dacc87e791dc17600770ee5, type: 3}
+  hurtSound: {fileID: 8300000, guid: ca17efc4cfb69be89bad85cb0d0e13a7, type: 3}
+  attackSound: {fileID: 8300000, guid: 27d22e316c05852b0a5b5d08eb86051d, type: 3}
   deathSound: {fileID: 206996388811582133, guid: f347832bce25ae0dabde1dd0ad040266, type: 3}
   comfortableRange: 10
   dashTime: 1

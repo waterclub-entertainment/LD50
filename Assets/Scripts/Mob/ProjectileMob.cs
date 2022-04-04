@@ -66,6 +66,7 @@ public class ProjectileMob : AttackMob
     {
         //spawn projectile in front of own position.
         Vector3 dir = (player.transform.position - transform.position).normalized;
+        GetComponent<AudioSource>().PlayOneShot(attackSound);
         Instantiate(projectilePrefab, transform.position + dir, Quaternion.LookRotation(dir, Vector3.up));
     }
     public void OnFinishedAttack()

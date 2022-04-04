@@ -21,6 +21,8 @@ public class SwordBehavior : MonoBehaviour
     public GameObject player;
     public GameObject sprite;
     public ParticleSystem bloodParticles;
+    public AudioClip hitSound;
+    public AudioClip swooshSound;
     
     //Orbit Data
         public float rot_speed = 1f;
@@ -105,6 +107,7 @@ public class SwordBehavior : MonoBehaviour
 
             sprite.transform.localRotation = Quaternion.AngleAxis(-angle / Mathf.PI * 180f - 90f, Vector3.up) * Quaternion.AngleAxis(90, Vector3.right);
             transfer_state(SwordState.MOVING_TO);
+            GetComponent<AudioSource>().PlayOneShot(swooshSound);
         }
 
     }
@@ -219,6 +222,7 @@ public class SwordBehavior : MonoBehaviour
         if (mob != null)
         {
             bloodParticles.Play();
+            GetComponent<AudioSource>().PlayOneShot(hitSound);
             mob.OnReceiveDamage();
         }
     }

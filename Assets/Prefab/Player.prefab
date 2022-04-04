@@ -57,6 +57,18 @@ MonoBehaviour:
   spriteRenderer: {fileID: 8000874897617822474}
   movementMultiplier: 0
   canControl: 1
+  walkSounds:
+  - {fileID: 8300000, guid: 58da7d49fdbcc8ab2a222b42c74be08a, type: 3}
+  - {fileID: 8300000, guid: d7f9c9182ae629d5086f688e87216f53, type: 3}
+  - {fileID: 8300000, guid: cc404f05e079dde93a646314fe9f6d4c, type: 3}
+  - {fileID: 8300000, guid: dd754f43aa3d3e64b808515b78e0f76c, type: 3}
+  - {fileID: 8300000, guid: a23e3a057141588049adb811415eebf2, type: 3}
+  - {fileID: 8300000, guid: a79eb4068cc6e404fa14e5f05939017d, type: 3}
+  - {fileID: 8300000, guid: 430bf28e5d9a43bd5acde9628df61457, type: 3}
+  - {fileID: 8300000, guid: 45fda70ef88be7e919425de4cbdb4903, type: 3}
+  - {fileID: 8300000, guid: 58442260e0e33fd6d8a61ea80bf5d0f1, type: 3}
+  - {fileID: 8300000, guid: 8b63f1b0b9a78eff9a6d8de7dd6fd5b0, type: 3}
+  walkCooldown: 0
 --- !u!95 &4358533050525640398
 Animator:
   serializedVersion: 3
@@ -138,7 +150,7 @@ MonoBehaviour:
   uiController: {fileID: 0}
   invincible: 0
   bloodOrbSound: {fileID: 8300000, guid: 6f20419f6622c3ca7af6dc6a53016cea, type: 3}
-  hurtSound: {fileID: 8300000, guid: 28e417bf521f875b4a73ba9dbd7bb74e, type: 3}
+  hurtSound: {fileID: 8300000, guid: b564bd3d682e573adbb302e8f17a76cd, type: 3}
 --- !u!114 &8481703769001151734
 MonoBehaviour:
   m_ObjectHideFlags: 0

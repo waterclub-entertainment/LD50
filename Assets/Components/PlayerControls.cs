@@ -12,6 +12,9 @@ public class PlayerControls : MonoBehaviour {
     public SpriteRenderer spriteRenderer;
     public float movementMultiplier = 0.0f;
     public bool canControl = true;
+    public AudioClip[] walkSounds;
+    public float walkCooldown = 0f;
+
     private Vector3 direction;
 
     void Start() {
@@ -20,6 +23,14 @@ public class PlayerControls : MonoBehaviour {
     }
 
     void Update() {
+        walkCooldown -= Time.deltaTime;
+        if (walkCooldown <= 0) {
+            walkCooldown = 0;
+            if (movementMultiplier == 1.0f) {
+                walkCooldown = 0.3f;
+                GetComponent<AudioSource>().PlayOneShot(walkSounds[Random.Range(0, walkSounds.Length)]);
+            }
+        }
         //Movement
         Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         if (movement != Vector3.zero) {

@@ -257,7 +257,10 @@ MonoBehaviour:
   score: 10
   health: 2
   navMeshAgent: {fileID: 6120450710808163946}
-  hurtSound: {fileID: 0}
+  dieSound: {fileID: 8300000, guid: 71819b3d270a1b5298cd2945fa0ad0c8, type: 3}
+  hurtSound: {fileID: 8300000, guid: 71819b3d270a1b5298cd2945fa0ad0c8, type: 3}
+  attackSound: {fileID: 8300000, guid: 9986f679638f57f358915cdfa86dc2c1, type: 3}
+  deathSound: {fileID: 206996388811582133, guid: f347832bce25ae0dabde1dd0ad040266, type: 3}
   damagePerHit: 1
   minAttackRange: 2
   maxAttackRange: 3
@@ -370,7 +373,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0

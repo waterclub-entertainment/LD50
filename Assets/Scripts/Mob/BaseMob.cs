@@ -42,6 +42,8 @@ public class BaseMob : MonoBehaviour
     public int health = 2;
     public NavMeshAgent navMeshAgent;
     public AudioClip dieSound;
+    public AudioClip hurtSound;
+    public AudioClip attackSound;
     public GameObject deathSound;
 
     protected float playerDist;
@@ -106,6 +108,8 @@ public class BaseMob : MonoBehaviour
             {
                 OnKill();
             }
+        } else {
+            GetComponent<AudioSource>().PlayOneShot(hurtSound);
         }
     }
 
