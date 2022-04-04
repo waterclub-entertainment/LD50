@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOverController : MonoBehaviour {
@@ -14,6 +15,7 @@ public class GameOverController : MonoBehaviour {
     public void OnSubmitScore() {
         string name = nameInput.text;
         Debug.Log(name + " " + (int) highscoreData.score);
+        SceneManager.LoadScene("Main");
     }
 
 }

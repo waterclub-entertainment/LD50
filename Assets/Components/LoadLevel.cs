@@ -19,6 +19,6 @@ public class LoadLevel : MonoBehaviour
     private IEnumerator WaitBeforeLoad()
     {
         yield return new WaitForSeconds(12);
-        SceneManager.LoadScene("M_Main");
+        SceneManager.LoadScene("Map");
     }
 }
