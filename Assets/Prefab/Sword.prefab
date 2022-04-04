@@ -5094,7 +5094,9 @@ MonoBehaviour:
   sprite: {fileID: 8286816230568428354}
   bloodParticles: {fileID: 1812716829234462088}
   hitSound: {fileID: 8300000, guid: a95195ae26027c1e7ac989a4ebc14d15, type: 3}
-  swooshSound: {fileID: 8300000, guid: 65bc785d2b26ae9d1a55a96523f5427b, type: 3}
+  swooshSound:
+  - {fileID: 8300000, guid: 1591071378d26de619b42867f1b96aee, type: 3}
+  - {fileID: 8300000, guid: b0dadaf5c6908c087a60074e59704de3, type: 3}
   rot_speed: 4
   moveSpeed: 56
 --- !u!54 &4744000174149372472
