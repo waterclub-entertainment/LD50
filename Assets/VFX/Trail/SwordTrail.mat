@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SwordTrail
-  m_Shader: {fileID: -6465566751694194690, guid: 7ac9ddb1dd1a47f45bfe8f5ba98ad8e4, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e5ff5c3bafbeaec4eb08f0ff7628da8e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
