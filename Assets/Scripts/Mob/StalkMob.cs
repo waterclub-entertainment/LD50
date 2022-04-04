@@ -74,7 +74,8 @@ public class StalkMob : BaseMob
 
     public void OnApplyAttack()
     {
-        tgt.Hurt(damagePerHit);
+        if (playerDist < maxAttackRange)
+            tgt.Hurt(damagePerHit);
     }
 
 }
