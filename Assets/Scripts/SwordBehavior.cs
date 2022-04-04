@@ -20,6 +20,7 @@ public class SwordBehavior : MonoBehaviour
     //the reference center (the player)
     public GameObject player;
     public GameObject sprite;
+    public ParticleSystem bloodParticles;
     
     //Orbit Data
         public float rot_speed = 1f;
@@ -217,6 +218,7 @@ public class SwordBehavior : MonoBehaviour
         BaseMob mob = collision.gameObject.GetComponent<BaseMob>();
         if (mob != null)
         {
+            bloodParticles.Play();
             mob.OnReceiveDamage();
         }
     }
