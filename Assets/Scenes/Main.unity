@@ -2230,22 +2230,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7812619865285401522, guid: 996faedb8200cc785b6ae3a0e3c1e43a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 41.4464
-      objectReference: {fileID: 0}
-    - target: {fileID: 7812619865285401522, guid: 996faedb8200cc785b6ae3a0e3c1e43a, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 41.446
-      objectReference: {fileID: 0}
-    - target: {fileID: 7812619865285401522, guid: 996faedb8200cc785b6ae3a0e3c1e43a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 54.987
-      objectReference: {fileID: 0}
-    - target: {fileID: 7812619865285401522, guid: 996faedb8200cc785b6ae3a0e3c1e43a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -49.7
-      objectReference: {fileID: 0}
     - target: {fileID: 7812619865778941633, guid: 996faedb8200cc785b6ae3a0e3c1e43a, type: 3}
       propertyPath: m_Name
       value: UI
