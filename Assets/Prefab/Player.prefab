@@ -138,6 +138,7 @@ MonoBehaviour:
   uiController: {fileID: 0}
   invincible: 0
   bloodOrbSound: {fileID: 8300000, guid: 6f20419f6622c3ca7af6dc6a53016cea, type: 3}
+  hurtSound: {fileID: 8300000, guid: 28e417bf521f875b4a73ba9dbd7bb74e, type: 3}
 --- !u!114 &8481703769001151734
 MonoBehaviour:
   m_ObjectHideFlags: 0

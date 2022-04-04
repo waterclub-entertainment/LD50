@@ -16,6 +16,7 @@ public class MobTarget : MonoBehaviour
     // "That's the cool part, you don't"
     public bool invincible = false;
     public AudioClip bloodOrbSound;
+    public AudioClip hurtSound;
 
     private MobSpawner diff;
 
@@ -28,16 +29,20 @@ public class MobTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Hurt(hurtCurve.Evaluate(diff.difficulty) * Time.deltaTime);
+        Hurt(hurtCurve.Evaluate(diff.difficulty) * Time.deltaTime, false);
         scoreObj.addScore(difficultyMultiplier * Time.deltaTime);
         if (uiController != null) {
             uiController.SetHealthLevel(health / 10f);
         }
     }
 
-    public void Hurt(float damage) {
-        if (invincible) {
+    public void Hurt(float damage, bool byMob = true) {
+        if (invincible && byMob) {
             return;
+        }
+
+        if (byMob) {
+            GetComponent<AudioSource>().PlayOneShot(hurtSound);
         }
         health -= damage;
 
