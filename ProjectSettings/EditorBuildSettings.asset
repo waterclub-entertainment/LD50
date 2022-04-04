@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Waterclub.unity
+    guid: 6cab30c5e5ebd1b889f8f9aa7ed2bd9a
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 765095aa29368bc4e9e29c858f7d64cd
   - enabled: 1
