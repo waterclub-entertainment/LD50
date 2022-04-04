@@ -51,6 +51,7 @@ public class BaseMob : MonoBehaviour
         d = d.normalized;
 
         canSee = Vector3.Angle(d, transform.forward) < fov && playerDist < viewDist;
+        canSee |= playerDist < viewDist * 0.5f;
 
         if (state == MobState.IDLE)
         {

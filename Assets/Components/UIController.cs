@@ -8,6 +8,9 @@ public class UIController : MonoBehaviour {
     public Material material;
     public Color darkBlood;
     public Color darkBloodDark;
+    public Sprite cracked;
+
+    private bool isCracked = false;
 
     void Start() {
         health.material = new Material(material);
@@ -28,6 +31,10 @@ public class UIController : MonoBehaviour {
     }
 
     public void SetCrystalLevel(float level) {
+        if (!isCracked) {
+            health.sprite = cracked;
+            isCracked = true;
+        }
         for (int i = 0; i < crystals.Length; i++) {
             if (i <= level) {
                 crystals[i].enabled = true;

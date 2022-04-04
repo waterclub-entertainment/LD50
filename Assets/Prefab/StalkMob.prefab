@@ -219,7 +219,7 @@ MonoBehaviour:
   viewDist: 20
   fov: 90
   angularSpeed: 1
-  speed: 1
+  speed: 7
   aggression: 5
   scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
   score: 10

@@ -46,7 +46,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.81
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -70,10 +70,10 @@ MonoBehaviour:
   aggression: 5
   scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
   score: 10
-  health: 5
+  health: 3
   navMeshAgent: {fileID: 8460731299267573999}
   damagePerHit: 1
-  minAttackRange: 20
+  minAttackRange: 10
   maxAttackRange: 30
   animator: {fileID: 287852753424258892}
   projectilePrefab: {fileID: 3239638753891384500, guid: 03495ae515a63544ea20b01c225e1593, type: 3}

@@ -888,6 +888,7 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 9deaf674af9468fba9d0be9803940b61, type: 2}
   darkBlood: {r: 0.27450982, g: 0, b: 0, a: 0}
   darkBloodDark: {r: 0.30588236, g: 0, b: 0, a: 0}
+  cracked: {fileID: 21300000, guid: f0855e6da09f6d8499ed17c7c51153de, type: 3}
 --- !u!1 &7812619865823136497
 GameObject:
   m_ObjectHideFlags: 0

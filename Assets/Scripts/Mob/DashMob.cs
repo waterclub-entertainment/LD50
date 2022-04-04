@@ -119,11 +119,10 @@ public class DashMob : BaseMob
         }
 
         //Computed in Code not in state machine to easier manipulate the distance
-        float d = dashTimeLeft - Time.deltaTime;
-        if (d >= 0.0f)
+        dashTimeLeft -= Time.deltaTime;
+        if (dashTimeLeft <= 0.0f)
         {
             //arrive at point
-            GetComponent<CharacterController>().Move(transform.forward * d);
             animator.SetTrigger("Arrived");
         }
         else
