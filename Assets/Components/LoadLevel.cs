@@ -27,6 +27,8 @@ public class LoadLevel : MonoBehaviour
     }
     private IEnumerator Wait(int dauer)
     {
+        AsyncOperation sceneLoad = SceneManager.LoadSceneAsync("Scenes/Map");
+        sceneLoad.allowSceneActivation = false;
         p1.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         p2.gameObject.SetActive(true);
@@ -53,7 +55,10 @@ public class LoadLevel : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         p13.gameObject.SetActive(true);
         yield return new WaitForSeconds(2.0f);
-        SceneManager.LoadScene("Map");
 
+        sceneLoad.allowSceneActivation = true;
+        while (!sceneLoad.isDone) {
+            yield return null;
+        }
     }
 }
