@@ -86,7 +86,13 @@ public class SwordBehavior : MonoBehaviour
     {
         if (canMove())
         {
-            moveVector = point;
+            RaycastHit hit;
+            Vector3 direction = point - transform.position;
+            float distance = direction.magnitude;
+            direction /= distance;
+            // 0b1000 is layermask for walls
+            Physics.Raycast(transform.position, direction, out hit, distance - 0.5f, 0b1000);
+            moveVector = direction * hit.distance + transform.position;
             moveVector.y = transform.position.y;
             float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.x);
 
@@ -197,6 +203,15 @@ public class SwordBehavior : MonoBehaviour
                 Vector3 dir = d.normalized;
                 transform.position += dir * moveSpeed * Time.deltaTime;
             }
+        }
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        BaseMob mob = collision.gameObject.GetComponent<BaseMob>();
+        if (mob != null)
+        {
+            mob.OnReceiveDamage();
         }
     }
     

@@ -51,7 +51,7 @@ public class ProjectileBehavior : MonoBehaviour
 
             tgt.Hurt(damagePerHit);
         }
-        else if (other.gameObject.name == "Sword" || other.gameObject.name == "WallCollider")
+        else if (other.gameObject.name == "Sword" || other.gameObject.layer == 3)
         {
             Destroy(gameObject);
         }

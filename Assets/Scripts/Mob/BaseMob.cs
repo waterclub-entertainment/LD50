@@ -120,7 +120,6 @@ public class BaseMob : MonoBehaviour
     {
         Vector3 d = (player.transform.position - transform.position).normalized;
         float angle = Vector2.SignedAngle(new Vector2(d.x, d.z), new Vector2(transform.forward.x, transform.forward.z));
-        Debug.Log(angle);
         float mult = 1.0f;
         //rotate faster if behind.
         if (Mathf.Abs(angle) > 90)
@@ -179,14 +178,6 @@ public class BaseMob : MonoBehaviour
             case MobState.DASHING:
                 OnDashing();
                 break;
-        }
-    }
-
-    void OnTriggerEnter(Collider collision)
-    {
-        if (collision.gameObject.name == "Sword")
-        {
-            OnReceiveDamage();
         }
     }
 }
