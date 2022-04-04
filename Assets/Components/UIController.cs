@@ -13,6 +13,8 @@ public class UIController : MonoBehaviour {
     public HighscoreData highscoreData;
 
     private bool isCracked = false;
+    private int lastMainCrystalIndex = -1;
+    private Vector2 lastAnchor = Vector2.zero;
 
     void Start() {
         health.material = new Material(material);
@@ -49,7 +51,15 @@ public class UIController : MonoBehaviour {
             if (i <= level) {
                 crystals[i].enabled = true;
                 if (i == (int)level) {
+                    if (i != lastMainCrystalIndex) {
+                        if (lastMainCrystalIndex != -1) {
+                            crystals[lastMainCrystalIndex].rectTransform.anchoredPosition = lastAnchor;
+                        }
+                        lastAnchor = crystals[i].rectTransform.anchoredPosition;
+                        crystals[i].rectTransform.anchoredPosition = new Vector2(53, -113);
+                    }
                     crystals[i].material.SetFloat("level", level - (int) level);
+                    lastMainCrystalIndex = i;
                 } else {
                     crystals[i].material.SetFloat("level", 1.5f);
                 }

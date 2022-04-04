@@ -5111,7 +5111,7 @@ MonoBehaviour:
   aggression: 5
   scoreObj: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
   score: 10
-  health: 2
+  health: 1
   navMeshAgent: {fileID: 8908688555011849804}
   damagePerHit: 1
   minAttackRange: 2

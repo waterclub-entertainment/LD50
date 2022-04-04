@@ -62264,6 +62264,18 @@ PrefabInstance:
       propertyPath: swordObject
       value: 
       objectReference: {fileID: 1825219924}
+    - target: {fileID: 8000874897617822474, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: m_Size.x
+      value: 16.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000874897617822474, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: m_Size.y
+      value: 22.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000874897617822474, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8481703769001151734, guid: 525a3d72b50e3154297cc582a6254b7d, type: 3}
       propertyPath: m_Enabled
       value: 0
