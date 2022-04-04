@@ -16,7 +16,9 @@ public class MobSpawner : MonoBehaviour {
     public float spawnMaxDistance = 20f;
     public float difficultyGain = 1/60f;
     public Tilemap floor;
-    
+
+    public UIController diffDisplay;
+
     private float spawningThreshold = 0.0f;
     public float difficulty = 0.0f;
 
@@ -26,7 +28,9 @@ public class MobSpawner : MonoBehaviour {
 
     void Update() {
         difficulty += difficultyGain * Time.deltaTime;
-        
+
+        diffDisplay.SetCrystalLevel(10.0f * difficulty);
+
         spawningThreshold -= Time.deltaTime * difficultyCurve.Evaluate(difficulty);
         while (spawningThreshold <= 0) {
             float totalWeight = 0f;
