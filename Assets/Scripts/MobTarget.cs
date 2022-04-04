@@ -29,6 +29,12 @@ public class MobTarget : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AudioLowPassFilter filter = GameObject.FindWithTag("MainCamera").GetComponent<AudioLowPassFilter>();
+        if (health < 2f) {
+            filter.cutoffFrequency = 1000f * health;
+        } else {
+            filter.cutoffFrequency = 22000;
+        }
         Hurt(hurtCurve.Evaluate(diff.difficulty) * Time.deltaTime, false);
         scoreObj.addScore(difficultyMultiplier * Time.deltaTime);
         if (uiController != null) {
