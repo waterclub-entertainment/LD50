@@ -189,6 +189,7 @@ MonoBehaviour:
   difficultyGain: 0.0055555557
   floor: {fileID: 0}
   diffDisplay: {fileID: 0}
+  highscoreData: {fileID: 11400000, guid: d14e3d5f9d2aa0706854ad375e1fcdf7, type: 2}
   difficulty: 0
 --- !u!1 &4360119609425631686
 GameObject:

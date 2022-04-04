@@ -14,7 +14,8 @@ public class GameOverController : MonoBehaviour {
 
     public void OnSubmitScore() {
         string name = nameInput.text;
-        Debug.Log(name + " " + (int) highscoreData.score);
+        Debug.Log(name + " " + ((int) highscoreData.score) * 100);
+        highscoreData.SetScore(0);
         SceneManager.LoadScene("Main");
     }
 

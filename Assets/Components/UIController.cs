@@ -9,6 +9,8 @@ public class UIController : MonoBehaviour {
     public Color darkBlood;
     public Color darkBloodDark;
     public Sprite cracked;
+    public Text score;
+    public HighscoreData highscoreData;
 
     private bool isCracked = false;
 
@@ -20,6 +22,14 @@ public class UIController : MonoBehaviour {
             crystal.enabled = false;
             crystal.material.SetColor("light_color", darkBlood);
             crystal.material.SetColor("dark_color", darkBloodDark);
+        }
+    }
+
+    void Update() {
+        if (highscoreData.score > 0) {
+            score.text = "" + ((int) highscoreData.score) * 100;
+        } else {
+            score.text = "";
         }
     }
 
