@@ -65,7 +65,8 @@ public class ProjectileMob : AttackMob
     new public void OnApplyAttack()
     {
         //spawn projectile in front of own position.
-        Instantiate(projectilePrefab, transform.position + transform.forward, transform.rotation);
+        Vector3 dir = (player.transform.position - transform.position).normalized;
+        Instantiate(projectilePrefab, transform.position + dir, Quaternion.LookRotation(dir, Vector3.up));
     }
     public void OnFinishedAttack()
     {
