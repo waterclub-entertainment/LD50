@@ -155,6 +155,7 @@ public class DashMob : BaseMob
 
         //forward to state machine
         finishedCasting = true;
+        GetComponent<AudioSource>().PlayOneShot(attackSound);
     }
     //Forward to state machine
     public void OnDashEnd()

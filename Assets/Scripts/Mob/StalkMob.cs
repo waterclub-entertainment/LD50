@@ -74,6 +74,7 @@ public class StalkMob : BaseMob
 
     public void OnApplyAttack()
     {
+        GetComponent<AudioSource>().PlayOneShot(attackSound);
         if (playerDist < maxAttackRange)
             tgt.Hurt(damagePerHit);
     }

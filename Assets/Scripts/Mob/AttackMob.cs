@@ -68,6 +68,7 @@ public class AttackMob : BaseMob
 
     public void OnApplyAttack()
     {
+        GetComponent<AudioSource>().PlayOneShot(attackSound);
         tgt.Hurt(damagePerHit);
     }
     
