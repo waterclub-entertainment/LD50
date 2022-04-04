@@ -5114,9 +5114,9 @@ MonoBehaviour:
   score: 10
   health: 1
   navMeshAgent: {fileID: 8908688555011849804}
-  dieSound: {fileID: 8300000, guid: 0bb6745695e577871ab7a0160a28ab21, type: 3}
-  hurtSound: {fileID: 8300000, guid: 0bb6745695e577871ab7a0160a28ab21, type: 3}
-  attackSound: {fileID: 8300000, guid: 0bb6745695e577871ab7a0160a28ab21, type: 3}
+  dieSound: {fileID: 8300000, guid: f3f971f1ea3e8f5329da34c6e84f1ab5, type: 3}
+  hurtSound: {fileID: 8300000, guid: 2a67ce8f28f1bfa02ba03ab7cc482ff2, type: 3}
+  attackSound: {fileID: 8300000, guid: 6feb034bdf0a5e66980c0750f80ff1eb, type: 3}
   deathSound: {fileID: 206996388811582133, guid: f347832bce25ae0dabde1dd0ad040266, type: 3}
   damagePerHit: 1
   minAttackRange: 2
