@@ -25,16 +25,30 @@ public class LoadLevel : MonoBehaviour
             StartCoroutine(Wait(1));
         }
     }
+
+    void Update() {
+        float distance = (GameObject.FindWithTag("Player").transform.position - transform.position).magnitude;
+        if (distance < 20f) {
+            p1.gameObject.SetActive(true);
+        }
+        if (distance < 10f) {
+            p2.gameObject.SetActive(true);
+        }
+        if (distance < 5f) {
+            p3.gameObject.SetActive(true);
+        }
+    }
+
     private IEnumerator Wait(int dauer)
     {
         AsyncOperation sceneLoad = SceneManager.LoadSceneAsync("Scenes/Map");
         sceneLoad.allowSceneActivation = false;
-        p1.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        p2.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        p3.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.3f);
+        /* p1.gameObject.SetActive(true); */
+        /* yield return new WaitForSeconds(0.1f); */
+        /* p2.gameObject.SetActive(true); */
+        /* yield return new WaitForSeconds(0.1f); */
+        /* p3.gameObject.SetActive(true); */
+        /* yield return new WaitForSeconds(0.3f); */
         p4.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         p5.gameObject.SetActive(true);
