@@ -18,11 +18,12 @@ public class UIController : MonoBehaviour {
             crystal.material.SetColor("light_color", darkBlood);
             crystal.material.SetColor("dark_color", darkBloodDark);
         }
-        SetHealthLevel(0.8f);
-        SetCrystalLevel(2.4f);
     }
 
     public void SetHealthLevel(float level) {
+        float min = 0.165f;
+        float max = 0.85f;
+        level = level * (max - min) + min;
         health.material.SetFloat("level", level);
     }
 

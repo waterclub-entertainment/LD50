@@ -11,6 +11,7 @@ public class MobTarget : MonoBehaviour
     public float difficultyOffset = 0.0f;
 
     public AnimationCurve hurtCurve;
+    public UIController uiController;
 
     private MobSpawner diff;
 
@@ -25,6 +26,9 @@ public class MobTarget : MonoBehaviour
     {
         Hurt(hurtCurve.Evaluate(diff.difficulty) * Time.deltaTime);
         scoreObj.addScore(difficultyMultiplier * Time.deltaTime);
+        if (uiController != null) {
+            uiController.SetHealthLevel(health / 10f);
+        }
     }
 
     public void Hurt(float damage) {
