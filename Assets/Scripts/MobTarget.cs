@@ -47,5 +47,11 @@ public class MobTarget : MonoBehaviour
         {
             Hurt(mobCollisionDamage);
         }
+        else if (hit.gameObject.tag == "BloodOrb")
+        {
+            //Handle Blood Orb
+            Destroy(hit.gameObject);
+            health += 1;
+        }
     }
 }

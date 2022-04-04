@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mob
   - Projectile
+  - BloodOrb
   layers:
   - Default
   - TransparentFX
