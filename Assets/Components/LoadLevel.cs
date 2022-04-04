@@ -6,9 +6,6 @@ using UnityEngine.VFX;
 
 public class LoadLevel : MonoBehaviour
 {
-    public ParticleSystem p1;
-    public ParticleSystem p2;
-    public ParticleSystem p3;
     public ParticleSystem p4;
     public ParticleSystem p5;
     public ParticleSystem p6;
@@ -19,6 +16,8 @@ public class LoadLevel : MonoBehaviour
     public ParticleSystem p11;
     public ParticleSystem p12;
     public ParticleSystem p13;
+
+    public GameObject Crystall;
     void OnTriggerEnter (Collider other)
     {
         if (other.gameObject.tag == "Player") {
@@ -29,12 +28,7 @@ public class LoadLevel : MonoBehaviour
     {
         AsyncOperation sceneLoad = SceneManager.LoadSceneAsync("Scenes/Map");
         sceneLoad.allowSceneActivation = false;
-        p1.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        p2.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        p3.gameObject.SetActive(true);
-        yield return new WaitForSeconds(0.3f);
+        Crystall.gameObject.SetActive(false);
         p4.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         p5.gameObject.SetActive(true);

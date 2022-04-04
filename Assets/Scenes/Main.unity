@@ -166,6 +166,40 @@ Transform:
   m_Father: {fileID: 1249098123}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &12875030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d2ba2e1d52f05a429fa82da37bb8c9a, type: 3}
+  m_PrefabInstance: {fileID: 1630829897}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &12875032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12875030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e761773f0dc567b4a8a702ef8b7d836e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1: {fileID: 1326645050}
+  p2: {fileID: 1005464493}
+  p3: {fileID: 1663046024}
+--- !u!136 &12875033
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12875030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 74.2
+  m_Height: 89.1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &14289881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
@@ -57234,6 +57268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: diamond
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9d2ba2e1d52f05a429fa82da37bb8c9a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d2ba2e1d52f05a429fa82da37bb8c9a, type: 3}
 --- !u!4 &1639961046 stripped
@@ -62760,9 +62798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53063dd2397a5fd40991aee00822c25f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p1: {fileID: 1326645050}
-  p2: {fileID: 1005464493}
-  p3: {fileID: 1663046024}
   p4: {fileID: 1517897312}
   p5: {fileID: 1536983888}
   p6: {fileID: 937660113}
@@ -62773,6 +62808,7 @@ MonoBehaviour:
   p11: {fileID: 1921768283}
   p12: {fileID: 271205972}
   p13: {fileID: 1070772186}
+  Crystall: {fileID: 12875030}
 --- !u!23 &1820914425
 MeshRenderer:
   m_ObjectHideFlags: 0
