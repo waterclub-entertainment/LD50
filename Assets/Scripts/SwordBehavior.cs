@@ -90,9 +90,15 @@ public class SwordBehavior : MonoBehaviour
             Vector3 direction = point - transform.position;
             float distance = direction.magnitude;
             direction /= distance;
+            float minDistance = Vector3.Dot(player.transform.position - transform.position, direction);
+            minDistance = Mathf.Max(0, minDistance);
+            minDistance = Mathf.Min(minDistance, distance);
             // 0b1000 is layermask for walls
-            Physics.Raycast(transform.position, direction, out hit, distance - 0.5f, 0b1000);
-            moveVector = direction * hit.distance + transform.position;
+            if (Physics.Raycast(transform.position + direction * minDistance, direction, out hit, distance - minDistance, 0b1000)) {
+                moveVector = direction * (hit.distance - 0.5f + minDistance) + transform.position;
+            } else {
+                moveVector = point;
+            }
             moveVector.y = transform.position.y;
             float angle = Mathf.Atan2(moveVector.z - transform.position.z, moveVector.x - transform.position.x);
 
