@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 200
@@ -195,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -258,6 +266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 280
@@ -319,6 +331,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -382,6 +398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -443,6 +463,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -506,6 +530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 207
@@ -567,6 +595,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -630,6 +662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -691,6 +727,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -754,6 +794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 222
@@ -815,6 +859,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -878,6 +926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -939,6 +991,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1002,6 +1058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -1063,6 +1123,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1126,6 +1190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -1187,6 +1255,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1250,6 +1322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 316
@@ -1311,6 +1387,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1374,6 +1454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1435,6 +1519,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1498,6 +1586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -1559,6 +1651,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1622,6 +1718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -1683,6 +1783,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1746,6 +1850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 239
@@ -1808,6 +1916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -1869,6 +1981,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -1981,6 +2097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 202
@@ -2042,6 +2162,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2105,6 +2229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -2166,6 +2294,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2229,6 +2361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -2290,6 +2426,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2353,6 +2493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -2414,6 +2558,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2477,6 +2625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 185
@@ -2538,6 +2690,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2601,6 +2757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 236
@@ -2662,6 +2822,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2725,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2786,6 +2954,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2849,6 +3021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -2910,6 +3086,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -2973,6 +3153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3034,6 +3218,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -3097,6 +3285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -3158,6 +3350,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -3221,6 +3417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 248
@@ -3282,6 +3482,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -3345,6 +3549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -3407,6 +3615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 333
@@ -3468,6 +3680,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -4503,6 +4719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 233
@@ -4564,6 +4784,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -4627,6 +4851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -4688,6 +4916,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -4751,6 +4983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -4812,6 +5048,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -4875,6 +5115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -4936,6 +5180,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -4999,6 +5247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 250
@@ -5060,6 +5312,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -5123,6 +5379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -5184,6 +5444,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -5247,6 +5511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 193
@@ -5308,6 +5576,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -5371,6 +5643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 228
@@ -5432,6 +5708,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -5495,6 +5775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -5556,6 +5840,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -5619,6 +5907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -5681,6 +5973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -5742,6 +6038,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -6735,6 +7035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -6796,6 +7100,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -6859,6 +7167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 342
@@ -6920,6 +7232,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -6983,6 +7299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -7044,6 +7364,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7107,6 +7431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 225
@@ -7168,6 +7496,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7231,6 +7563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -7292,6 +7628,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7355,6 +7695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 325
@@ -7416,6 +7760,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7479,6 +7827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 224
@@ -7540,6 +7892,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7689,6 +8045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 271
@@ -7750,6 +8110,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7813,6 +8177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 306
@@ -7874,6 +8242,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -7937,6 +8309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 237
@@ -7998,6 +8374,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8061,6 +8441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 302
@@ -8122,6 +8506,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8185,6 +8573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -8246,6 +8638,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8309,6 +8705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -8370,6 +8770,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8433,6 +8837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 277
@@ -8494,6 +8902,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8557,6 +8969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -8618,6 +9034,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8681,6 +9101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 278
@@ -8742,6 +9166,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8805,6 +9233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 287
@@ -8866,6 +9298,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -8929,6 +9365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 295
@@ -8990,6 +9430,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9110,6 +9554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -9171,6 +9619,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9234,6 +9686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -9295,6 +9751,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9358,6 +9818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -9419,6 +9883,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9482,6 +9950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 194
@@ -9543,6 +10015,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9606,6 +10082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 299
@@ -9667,6 +10147,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9730,6 +10214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 148
@@ -9791,6 +10279,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9854,6 +10346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 214
@@ -9915,6 +10411,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -9978,6 +10478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -10039,6 +10543,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10102,6 +10610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 259
@@ -10163,6 +10675,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10226,6 +10742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 246
@@ -10287,6 +10807,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10350,6 +10874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -10411,6 +10939,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10474,6 +11006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -10535,6 +11071,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10598,6 +11138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 269
@@ -10659,6 +11203,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10722,6 +11270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -10783,6 +11335,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10846,6 +11402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -10907,6 +11467,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -10970,6 +11534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 303
@@ -11031,6 +11599,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -11094,6 +11666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -11155,6 +11731,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -11218,6 +11798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -11279,6 +11863,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -11342,6 +11930,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -11403,6 +11995,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -11466,6 +12062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 221
@@ -11527,6 +12127,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -11594,7 +12198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &889723983
 Transform:
@@ -12005,6 +12609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 279
@@ -12066,6 +12674,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12129,6 +12741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 255
@@ -12190,6 +12806,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12253,6 +12873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -12314,6 +12938,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12377,6 +13005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -12438,6 +13070,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12501,6 +13137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 209
@@ -12562,6 +13202,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12682,6 +13326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 267
@@ -12743,6 +13391,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12806,6 +13458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 311
@@ -12867,6 +13523,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -12930,6 +13590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 309
@@ -12991,6 +13655,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -13054,6 +13722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -13115,6 +13787,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -13178,6 +13854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -13239,6 +13919,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -13302,6 +13986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 186
@@ -13363,6 +14051,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -14508,6 +15200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -14569,6 +15265,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -14632,6 +15332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 217
@@ -14693,6 +15397,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -14756,6 +15464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14818,6 +15530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 188
@@ -14879,6 +15595,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15086,6 +15806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 235
@@ -15147,6 +15871,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15210,6 +15938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -15271,6 +16003,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15334,6 +16070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 197
@@ -15395,6 +16135,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15458,6 +16202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 245
@@ -15519,6 +16267,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15582,6 +16334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 139
@@ -15644,6 +16400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 304
@@ -15705,6 +16465,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -15906,6 +16670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 253
@@ -15967,6 +16735,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16030,6 +16802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -16091,6 +16867,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16154,6 +16934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 289
@@ -16215,6 +16999,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16278,6 +17066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 270
@@ -16339,6 +17131,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16402,6 +17198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 291
@@ -16463,6 +17263,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16526,6 +17330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 208
@@ -16587,6 +17395,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16650,6 +17462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -16711,6 +17527,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16774,6 +17594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -16835,6 +17659,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -16898,6 +17726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 219
@@ -16959,6 +17791,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18185,6 +19021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 290
@@ -18246,6 +19086,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18309,6 +19153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 135
@@ -18370,6 +19218,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18433,6 +19285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -18494,6 +19350,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18557,6 +19417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 204
@@ -18618,6 +19482,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18681,6 +19549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 164
@@ -18742,6 +19614,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18805,6 +19681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 181
@@ -18866,6 +19746,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -18929,6 +19813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -18990,6 +19878,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19053,6 +19945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -19114,6 +20010,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19177,6 +20077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 345
@@ -19238,6 +20142,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19301,6 +20209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -19362,6 +20274,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19425,6 +20341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 242
@@ -19486,6 +20406,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19549,6 +20473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -19610,6 +20538,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19673,6 +20605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -19734,6 +20670,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19797,6 +20737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 176
@@ -19858,6 +20802,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -19921,6 +20869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 320
@@ -19982,6 +20934,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20045,6 +21001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -20106,6 +21066,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20169,6 +21133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -20230,6 +21198,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20293,6 +21265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -20354,6 +21330,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20417,6 +21397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -20478,6 +21462,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20541,6 +21529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -20602,6 +21594,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20665,6 +21661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 326
@@ -20726,6 +21726,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20789,6 +21793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 344
@@ -20850,6 +21858,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -20913,6 +21925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 305
@@ -20974,6 +21990,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21037,6 +22057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 314
@@ -21098,6 +22122,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21161,6 +22189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 327
@@ -21222,6 +22254,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21285,6 +22321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -21346,6 +22386,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21409,6 +22453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 172
@@ -21470,6 +22518,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21533,6 +22585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -21595,6 +22651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 263
@@ -21656,6 +22716,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21800,6 +22864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -21861,6 +22929,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -21924,6 +22996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -21985,6 +23061,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22048,6 +23128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 294
@@ -22109,6 +23193,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22172,6 +23260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -22233,6 +23325,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22296,6 +23392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 262
@@ -22357,6 +23457,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22420,6 +23524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 334
@@ -22481,6 +23589,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22544,6 +23656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -22605,6 +23721,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -22668,6 +23788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 264
@@ -22730,6 +23854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 284
@@ -22791,6 +23919,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32188,6 +33320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 329
@@ -32249,6 +33385,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32312,6 +33452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -32373,6 +33517,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32436,6 +33584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 223
@@ -32497,6 +33649,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32560,6 +33716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -32621,6 +33781,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32684,6 +33848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 321
@@ -32745,6 +33913,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32808,6 +33980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -32869,6 +34045,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -32989,6 +34169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -33050,6 +34234,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33113,6 +34301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -33174,6 +34366,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33340,6 +34536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 191
@@ -33401,6 +34601,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33464,6 +34668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -33525,6 +34733,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33588,6 +34800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 276
@@ -33649,6 +34865,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33712,6 +34932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -33773,6 +34997,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33836,6 +35064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 257
@@ -33897,6 +35129,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -33960,6 +35196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 243
@@ -34021,6 +35261,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34084,6 +35328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -34145,6 +35393,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34208,6 +35460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -34269,6 +35525,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34332,6 +35592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -34393,6 +35657,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34456,6 +35724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -34517,6 +35789,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34580,6 +35856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 292
@@ -34641,6 +35921,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34704,6 +35988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 313
@@ -34765,6 +36053,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34828,6 +36120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 283
@@ -34889,6 +36185,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -34952,6 +36252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -35013,6 +36317,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35076,6 +36384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 322
@@ -35137,6 +36449,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35200,6 +36516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 341
@@ -35261,6 +36581,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35324,6 +36648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -35385,6 +36713,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35448,6 +36780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -35509,6 +36845,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35572,6 +36912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 201
@@ -35633,6 +36977,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35696,6 +37044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -35757,6 +37109,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35820,6 +37176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 184
@@ -35881,6 +37241,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -35944,6 +37308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -36005,6 +37373,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
@@ -36068,6 +37440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 338
@@ -36130,6 +37506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -36191,6 +37571,10 @@ PrefabInstance:
     - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_Name
       value: WallCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286633596065540261, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8811372568501518221, guid: 37052c51ea897ad079c64d95b1c563cb, type: 3}
       propertyPath: m_RootOrder
