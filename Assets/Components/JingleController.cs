@@ -12,7 +12,7 @@ public class JingleController : MonoBehaviour {
     }
 
     IEnumerator SceneTransition() {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene("Scenes/Main");
     }
 
