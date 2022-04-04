@@ -13,6 +13,9 @@ public class MobTarget : MonoBehaviour
     public AnimationCurve hurtCurve;
     public UIController uiController;
 
+    // "That's the cool part, you don't"
+    public bool invincible = false;
+
     private MobSpawner diff;
 
     void Start()
@@ -32,6 +35,9 @@ public class MobTarget : MonoBehaviour
     }
 
     public void Hurt(float damage) {
+        if (invincible) {
+            return;
+        }
         health -= damage;
 
         if (health <= 0)
