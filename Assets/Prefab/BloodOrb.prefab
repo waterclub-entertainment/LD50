@@ -4814,7 +4814,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6592098563084600481}
-  - component: {fileID: 6592098563084600480}
+  - component: {fileID: 982999089333944152}
+  - component: {fileID: 6435925872215038984}
   m_Layer: 0
   m_Name: BloodOrb
   m_TagString: BloodOrb
@@ -4838,8 +4839,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &6592098563084600480
-CapsuleCollider:
+--- !u!135 &982999089333944152
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4848,10 +4849,23 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Radius: 1.19
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6435925872215038984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6592098563084600483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b91ab8650409bcab9f92b419724005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disable: {fileID: 6592098562845785631}
+  lifeTime: 10
 --- !u!1 &7890894165297846753
 GameObject:
   m_ObjectHideFlags: 0
