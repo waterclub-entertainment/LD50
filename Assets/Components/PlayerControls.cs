@@ -48,6 +48,8 @@ public class PlayerControls : MonoBehaviour {
         }
         Vector3 velocity = Quaternion.Euler(0, 45, 0) * direction * movementMultiplier * speed;
         characterController.Move(velocity * Time.deltaTime);
+        // Player can't move up or down
+        transform.position = new Vector3(transform.position.x, 1, transform.position.z);
 
 
         //Click Handling
