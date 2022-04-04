@@ -11,6 +11,7 @@ public class UIController : MonoBehaviour {
 
     void Start() {
         health.material = new Material(material);
+        health.material.SetInt("light_mix", 1);
         foreach (Image crystal in crystals) {
             crystal.material = new Material(material);
             crystal.enabled = false;
