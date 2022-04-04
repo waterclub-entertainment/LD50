@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Subfloor
+    uniqueID: 187162719
+    locked: 0
   - name: Floor
     uniqueID: 1379382443
     locked: 0
