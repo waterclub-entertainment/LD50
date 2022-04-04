@@ -10,7 +10,7 @@ public class GameOverController : MonoBehaviour
 {
 
     public HighscoreData highscoreData;
-    public Text scoreText;
+    public TMPro.TMP_Text scoreText;
     public InputField nameInput;
 
     void Start()
