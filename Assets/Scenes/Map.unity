@@ -5867,7 +5867,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.5, y: 1.5, z: 0}
+  m_ChunkCullingBounds: {x: 0.5, y: 3.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -6701,7 +6701,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -18, y: -17, z: 0}
   m_Size: {x: 36, y: 36, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0.5, y: 0, z: 0}
   m_TileOrientation: 6
   m_TileOrientationMatrix:
     e00: 1
@@ -6711,11 +6711,11 @@ Tilemap:
     e10: 0
     e11: 1
     e12: 0
-    e13: 2
+    e13: 0
     e20: 0
     e21: 0
     e22: 1
-    e23: 1
+    e23: 2
     e30: 0
     e31: 0
     e32: 0
@@ -16854,7 +16854,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.5, y: 1.5, z: 0}
+  m_ChunkCullingBounds: {x: 0.5, y: 3.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -17828,7 +17828,7 @@ Tilemap:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -14, y: -23, z: 0}
   m_Size: {x: 32, y: 42, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileAnchor: {x: 0.5, y: 0, z: 0}
   m_TileOrientation: 6
   m_TileOrientationMatrix:
     e00: 0.000000059604645
@@ -17838,7 +17838,7 @@ Tilemap:
     e10: 0
     e11: 1
     e12: 0
-    e13: 2
+    e13: 0
     e20: -0.99999994
     e21: 0
     e22: 0.000000059604645
