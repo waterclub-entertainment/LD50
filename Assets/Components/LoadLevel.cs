@@ -6,9 +6,6 @@ using UnityEngine.VFX;
 
 public class LoadLevel : MonoBehaviour
 {
-    public ParticleSystem p1;
-    public ParticleSystem p2;
-    public ParticleSystem p3;
     public ParticleSystem p4;
     public ParticleSystem p5;
     public ParticleSystem p6;
@@ -19,36 +16,19 @@ public class LoadLevel : MonoBehaviour
     public ParticleSystem p11;
     public ParticleSystem p12;
     public ParticleSystem p13;
+
+    public GameObject Crystall;
     void OnTriggerEnter (Collider other)
     {
         if (other.gameObject.tag == "Player") {
             StartCoroutine(Wait(1));
         }
     }
-
-    void Update() {
-        float distance = (GameObject.FindWithTag("Player").transform.position - transform.position).magnitude;
-        if (distance < 20f) {
-            p1.gameObject.SetActive(true);
-        }
-        if (distance < 10f) {
-            p2.gameObject.SetActive(true);
-        }
-        if (distance < 5f) {
-            p3.gameObject.SetActive(true);
-        }
-    }
-
     private IEnumerator Wait(int dauer)
     {
         AsyncOperation sceneLoad = SceneManager.LoadSceneAsync("Scenes/Map");
         sceneLoad.allowSceneActivation = false;
-        /* p1.gameObject.SetActive(true); */
-        /* yield return new WaitForSeconds(0.1f); */
-        /* p2.gameObject.SetActive(true); */
-        /* yield return new WaitForSeconds(0.1f); */
-        /* p3.gameObject.SetActive(true); */
-        /* yield return new WaitForSeconds(0.3f); */
+        Crystall.gameObject.SetActive(false);
         p4.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         p5.gameObject.SetActive(true);
