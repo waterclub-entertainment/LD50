@@ -23,7 +23,7 @@ public class HighscoreLoader : MonoBehaviour
 
     }
 
-    private string URL = "v2202001110922105851.happysrv.de:42069/highscores";
+    private string URL = "http://v2202001110922105851.happysrv.de:42069/highscores";
 
     public void GenerateRequest()
     {
