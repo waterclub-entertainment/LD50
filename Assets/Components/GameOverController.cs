@@ -46,6 +46,7 @@ public class GameOverController : MonoBehaviour
         webRequest.uploadHandler = new UploadHandlerRaw(rawUploadData);
         webRequest.downloadHandler = new DownloadHandlerBuffer();
         yield return webRequest.SendWebRequest();
+        Debug.Log(rawUploadData);
     }
 
 }
