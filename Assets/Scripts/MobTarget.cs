@@ -15,6 +15,7 @@ public class MobTarget : MonoBehaviour
 
     // "That's the cool part, you don't"
     public bool invincible = false;
+    public AudioClip bloodOrbSound;
 
     private MobSpawner diff;
 
@@ -56,6 +57,7 @@ public class MobTarget : MonoBehaviour
         else if (hit.gameObject.tag == "BloodOrb")
         {
             //Handle Blood Orb
+            GetComponent<AudioSource>().PlayOneShot(bloodOrbSound);
             Destroy(hit.gameObject);
             health += 1;
         }

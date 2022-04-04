@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class BaseMob : MonoBehaviour
 {
@@ -40,6 +41,8 @@ public class BaseMob : MonoBehaviour
 
     public int health = 2;
     public NavMeshAgent navMeshAgent;
+    public AudioClip dieSound;
+    public GameObject deathSound;
 
     protected float playerDist;
 
@@ -86,10 +89,12 @@ public class BaseMob : MonoBehaviour
     public virtual void OnKill()
     {
         //Handle events on the actual kill such as heal.
+        GameObject s = Instantiate(deathSound, transform.position, transform.rotation);
+        s.GetComponent<AudioSource>().PlayOneShot(dieSound);
         scoreObj.addScore(score);
         
         GameObject res = Instantiate(bloodOrbPrefab, transform.position, Quaternion.identity);
-        Debug.Log(res.transform.position);
+        Destroy(gameObject);
     }
 
     public virtual void OnReceiveDamage()
@@ -100,7 +105,6 @@ public class BaseMob : MonoBehaviour
             if (OnDeath())
             {
                 OnKill();
-                Destroy(gameObject);
             }
         }
     }
