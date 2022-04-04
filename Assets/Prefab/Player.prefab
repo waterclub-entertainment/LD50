@@ -115,25 +115,26 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.29953003
-      inSlope: 0.37444934
-      outSlope: 0.37444934
+      value: 0.1499939
+      inSlope: 0.3740547
+      outSlope: 0.3740547
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.27083334
+      outWeight: 0.10554009
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 2.4185245
-      outSlope: 2.4185245
+      inSlope: 3.3324995
+      outSlope: 3.3324995
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.04583335
+      inWeight: 0.020970106
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  uiController: {fileID: 0}
 --- !u!114 &8481703769001151734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,13 +150,16 @@ MonoBehaviour:
   mobs:
   - mob: {fileID: 7959973170785929406, guid: e10142e7618ea1f4485a7c0029cbe28f, type: 3}
     minDifficulty: 0
-    spawningRate: 0.1
+    spawningRate: 0.3
+  - mob: {fileID: 7959973170785929406, guid: 8bbafeffe5b022248a7daad1bd9f961c, type: 3}
+    minDifficulty: 0.083333336
+    spawningRate: 0.15
   - mob: {fileID: 287852753424258899, guid: 2fe2a24c7c5f2ae4ebe6450c8aa5c336, type: 3}
-    minDifficulty: 0.5
-    spawningRate: 0.05
+    minDifficulty: 0.16666667
+    spawningRate: 0.1
   - mob: {fileID: 4023719872820148351, guid: a664c695a28dfb94087f106222f1558e, type: 3}
-    minDifficulty: 0.75
-    spawningRate: 0.05
+    minDifficulty: 0.25
+    spawningRate: 0.1
   difficultyCurve:
     serializedVersion: 2
     m_Curve:
@@ -180,10 +184,11 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  spawnMinDistance: 20
-  spawnMaxDistance: 30
-  difficultyGain: 0.016666668
+  spawnMinDistance: 10
+  spawnMaxDistance: 20
+  difficultyGain: 0.0055555557
   floor: {fileID: 0}
+  diffDisplay: {fileID: 0}
   difficulty: 0
 --- !u!1 &4360119609425631686
 GameObject:

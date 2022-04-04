@@ -45,7 +45,7 @@ public class MobSpawner : MonoBehaviour {
                 spawningThreshold = 0f;
                 break;
             } else {
-                float r = Random.value;
+                float r = Random.value * totalWeight;
                 bool worked = false;
                 foreach (MobDifficulty mob in mobs) {
                     if (mob.minDifficulty <= difficulty) {
@@ -76,7 +76,7 @@ public class MobSpawner : MonoBehaviour {
             float spawnAngle = Random.value * Mathf.PI * 2;
             Vector3 position = new Vector3(Mathf.Cos(spawnAngle), 0, Mathf.Sin(spawnAngle)) * dist + player.transform.position;
             Vector3Int tilePosition = floor.WorldToCell(position);
-            tilePosition.y = 0;
+            tilePosition.z = 0; // Yes it is z and not y
             if (floor.GetTile(tilePosition) == null) {
                 continue;
             }
