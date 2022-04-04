@@ -17,6 +17,8 @@ public class LoadLevel : MonoBehaviour
     public ParticleSystem p12;
     public ParticleSystem p13;
 
+    public UIController MachMaWas;
+
     public GameObject CrystalUI;
 
     public GameObject Crystall;
@@ -31,7 +33,7 @@ public class LoadLevel : MonoBehaviour
         AsyncOperation sceneLoad = SceneManager.LoadSceneAsync("Scenes/Map");
         sceneLoad.allowSceneActivation = false;
         Crystall.gameObject.SetActive(false);
-        CrystalUI.gameObject.SetActive(true);
+        MachMaWas.SetCrystalLevel(0f);
         p4.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         p5.gameObject.SetActive(true);
