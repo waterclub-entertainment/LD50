@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8156d8b7d27ee246b7eed7bb9fc1a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bloodOrbPrefab: {fileID: 6592098563084600483, guid: 8a5c78b50f3179d40a99c459a9f018d6, type: 3}
   viewDist: 20
   fov: 90
   angularSpeed: 1

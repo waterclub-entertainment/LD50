@@ -19,6 +19,7 @@ public class BaseMob : MonoBehaviour
 
     protected GameObject player;
     protected MobTarget tgt;
+    public GameObject bloodOrbPrefab;
     private MobState _state = MobState.IDLE;
     public MobState state
     {
@@ -85,6 +86,9 @@ public class BaseMob : MonoBehaviour
     {
         //Handle events on the actual kill such as heal.
         scoreObj.addScore(score);
+        
+        GameObject res = Instantiate(bloodOrbPrefab, transform.position, Quaternion.identity);
+        Debug.Log(res.transform.position);
     }
 
     public virtual void OnReceiveDamage()
