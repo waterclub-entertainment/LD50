@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SwordTrail
-  m_Shader: {fileID: -6465566751694194690, guid: e5ff5c3bafbeaec4eb08f0ff7628da8e, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 7ac9ddb1dd1a47f45bfe8f5ba98ad8e4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -158,7 +158,7 @@ Material:
     - Vector2_386f70adc5154949b6c778032d57acdd: {r: 1, g: 0, b: 0, a: 0}
     - Vector2_423a5eb1c78c40f5b8819999ec48610c: {r: 1, g: 0, b: 0, a: 0}
     - Vector2_7a7c51c77bf240189e958156b57aad73: {r: -0.1, g: 0, b: 0, a: 0}
-    - Vector2_7f547387f1a54bd0a7ea38eab296d331: {r: 0.1, g: 0, b: 0, a: 0}
+    - Vector2_7f547387f1a54bd0a7ea38eab296d331: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
