@@ -21,37 +21,38 @@ public class LoadLevel : MonoBehaviour
     public ParticleSystem p13;
     void OnTriggerEnter (Collider other)
     {
-        
-        StartCoroutine(Wait(1));
+        if (other.gameObject.tag == "Player") {
+            StartCoroutine(Wait(1));
+        }
     }
     private IEnumerator Wait(int dauer)
     {
         p1.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p2.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p3.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.3f);
         p4.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p5.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p6.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.3f);
         p7.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p8.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p9.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(1f);
         p10.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p11.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.1f);
         p12.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(0.3f);
         p13.gameObject.SetActive(true);
-        yield return new WaitForSeconds(dauer);
+        yield return new WaitForSeconds(2.0f);
         SceneManager.LoadScene("Map");
 
     }
