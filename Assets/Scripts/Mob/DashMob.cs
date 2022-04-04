@@ -28,6 +28,7 @@ public class DashMob : BaseMob
     public override MobState UpdateState()
     {
         animator.SetBool("Forward", Vector3.Dot(transform.forward, new Vector3(1, 0, 1)) > 0);
+        transform.Find("Sprite").GetComponent<SpriteRenderer>().flipX = Vector3.Dot(transform.right, new Vector3(1, 0, 1)) < 0;
         MobState state = base.UpdateState();
 
         if (state == MobState.AGGRESSIVE)
