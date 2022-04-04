@@ -186,6 +186,7 @@ MonoBehaviour:
   p1: {fileID: 1326645050}
   p2: {fileID: 1005464493}
   p3: {fileID: 1663046024}
+  Crystal: {fileID: 12875030}
 --- !u!136 &12875033
 CapsuleCollider:
   m_ObjectHideFlags: 0
