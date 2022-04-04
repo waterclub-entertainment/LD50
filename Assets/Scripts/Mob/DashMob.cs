@@ -27,6 +27,7 @@ public class DashMob : BaseMob
 
     public override MobState UpdateState()
     {
+        animator.SetBool("Forward", Vector3.Dot(transform.forward, new Vector3(1, 0, 1)) > 0);
         MobState state = base.UpdateState();
 
         if (state == MobState.AGGRESSIVE)
