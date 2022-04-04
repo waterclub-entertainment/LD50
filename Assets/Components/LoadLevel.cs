@@ -6,7 +6,6 @@ using UnityEngine.VFX;
 
 public class LoadLevel : MonoBehaviour
 {
-    bool LL = false;
     [SerializeField] VisualEffect _MagicCircle;
     void OnTriggerEnter (Collider other)
     {
