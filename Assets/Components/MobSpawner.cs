@@ -80,9 +80,10 @@ public class MobSpawner : MonoBehaviour {
             if (floor.GetTile(tilePosition) == null) {
                 continue;
             }
+            float angle = Random.value * 360;
             position = floor.CellToWorld(tilePosition);
             position.y = 1f;
-            Instantiate(mob, position, Quaternion.identity);
+            Instantiate(mob, position, Quaternion.Euler(0, angle, 0));
             return;
         }
     }
