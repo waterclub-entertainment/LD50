@@ -26,7 +26,7 @@ public class GameOverController : MonoBehaviour
     }
     private int score;
     private string name;
-    private static string URL = "http://v2202001110922105851.happysrv.de:42069/highscores";
+    private static string URL = "https://v2202001110922105851.happysrv.de:42069/highscores";
 
     public void OnSubmitScore()
     {
