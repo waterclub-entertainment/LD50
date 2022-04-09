@@ -56,7 +56,7 @@ public class SwordBehavior : MonoBehaviour
     void Start()
     {
         orbit_player_transform();
-        onMoveOrbitSpeed = (float)(moveSpeed / (_dist * 2.0f * Math.PI)); //rearranged from (speed / circuumference)/one rotation together with conversion to angle
+        onMoveOrbitSpeed = (float)(moveSpeed / _dist); //rearranged from (speed / circuumference)/one rotation together with conversion to angle
         Debug.Log("Computed Orbital Velocity: " + onMoveOrbitSpeed.ToString());
     }
 
@@ -69,7 +69,7 @@ public class SwordBehavior : MonoBehaviour
     {
         float sinAngle = (float)Math.Sin(angle);
         float cosAngle = (float)Math.Cos(angle);
-        return new Vector3(cosAngle, 0, sinAngle);
+        return new Vector3(cosAngle, 0, sinAngle).normalized;
     }
 
     private (double, double) computeTangentAngles(Vector3 pt)
@@ -80,23 +80,23 @@ public class SwordBehavior : MonoBehaviour
         float z_dist = pt.z - pos.z;
         double vec_dist = Math.Sqrt(x_dist * x_dist + z_dist * z_dist);
 
-        double radius = _dist * 2;
+        double radius = _dist;
 
         //relative angle of the first point
         if (radius / vec_dist > 1)
-            return (1.0, Math.Atan2(z_dist, x_dist));
+            return (0, Math.Atan2(z_dist, x_dist));
         else if(radius / vec_dist < -1)
-            return (-1.0, Math.Atan2(z_dist, x_dist));
+            return (Math.PI, Math.Atan2(z_dist, x_dist));
         else
-            return (Math.Asin(radius / vec_dist), Math.Atan2(z_dist, x_dist));
+            return (Math.Acos(radius / vec_dist), Math.Atan2(z_dist, x_dist));
     }
 
     private Vector3 computeNearestOrbitAngle(Vector3 pt, bool post = true)
     {
-        Vector3 pos = player.transform.position;
-
         //relative angle of the first point
-        (double a, double b) = computeTangentAngles(pos);
+        (double a, double b) = computeTangentAngles(pt);
+
+        Debug.DrawLine(player.transform.position + orbit_pt((float)b) * _dist, player.transform.position);
 
         //technically there are two soluvations but we always want to approach the next point clockwise
         if (post)
@@ -226,7 +226,7 @@ public class SwordBehavior : MonoBehaviour
             //normalize using distance
             angle += (float)(rot_speed * Time.deltaTime / (2 * Math.PI * _dist));
             //reset after orbit
-            if (angle > 2 * Math.PI)
+            if (angle > Math.PI)
                 angle -= (float)(2 * Math.PI);
 
             orbit_player_transform();
@@ -234,20 +234,23 @@ public class SwordBehavior : MonoBehaviour
         else if (state == SwordState.ORBITING_TO)
         {
             (double a, double b) = computeTangentAngles(moveVector);
-            float goalAngle1 = (float) (b - a);
+            float goalAngle1 = (float)(b - a);
             float goalAngle2 = (float)(b + a);
 
-            float deltaAngle = 0.0f;
+            Debug.DrawLine(moveVector, player.transform.position + orbit_pt(goalAngle1) * _dist, Color.green, 2.0f);
+            Debug.DrawLine(moveVector, player.transform.position + orbit_pt(goalAngle2) * _dist, Color.red, 2.0f);
+
+            goalAngle = goalAngle1;
+            float deltaAngle = Math.Abs(goalAngle - angle);
+            deltaAngle = (float)Math.Min(deltaAngle, (2 * Math.PI) - deltaAngle);
 
             //check if we would overshoot our point
             if (deltaAngle <= onMoveOrbitSpeed * Time.deltaTime)
             {
                 //arrive at point
-                transform.position = player.transform.position + orbit_pt(goalAngle) * _dist * 2;
+                transform.position = player.transform.position + orbit_pt(goalAngle) * _dist;
 
                 //reset after orbit but only do that once we arrived to not make calculations more complicated
-                if (angle > 2 * Math.PI)
-                    angle -= (float)(2 * Math.PI);
 
                 //transfer state to arrival, this should be handled separately??
                 transfer_state(SwordState.MOVING_TO);
@@ -256,8 +259,11 @@ public class SwordBehavior : MonoBehaviour
             {
                 //normalize using distance
                 angle += onMoveOrbitSpeed * Time.deltaTime;
-                transform.position = player.transform.position + orbit_pt(angle) * _dist * 2;
+                transform.position = player.transform.position + orbit_pt(angle) * _dist;
             }
+            if (angle > Math.PI)
+                angle -= (float)(2 * Math.PI);
+            
 
         }
         else if (state == SwordState.MOVING_TO)
@@ -280,7 +286,7 @@ public class SwordBehavior : MonoBehaviour
         }
         else if (state == SwordState.RETURNING)
         {
-            Vector3 mv = player.transform.position + orbit_pt() * _dist;
+            Vector3 mv = player.transform.position + computeNearestOrbitAngle(transform.position) * _dist;
 
             Vector3 d = mv - transform.position;
             //should this state be in the state transfer?
@@ -288,6 +294,9 @@ public class SwordBehavior : MonoBehaviour
             {
                 //arrive at point
                 transform.position += d;
+
+                //set angle to be in the correct value
+                angle = (float)Math.Atan2(transform.position.z - player.transform.position.z, transform.position.x - player.transform.position.x);
 
                 //transfer state to arrival, this should be handled separately??
                 transfer_state(SwordState.ORBITING);
@@ -300,9 +309,14 @@ public class SwordBehavior : MonoBehaviour
         }
         else if (state == SwordState.RETURNING_TO)
         {
-            Vector3 mv = player.transform.position + computeNearestOrbitAngle(transform.position) * _dist * 2;
+            Vector3 mv = player.transform.position + computeNearestOrbitAngle(transform.position) * _dist;
 
             // Debug.Log(computeNearestOrbitAngle(transform.position));
+
+            Debug.DrawLine(transform.position, mv, Color.green);
+
+            //set angle to be in the correct value
+            angle = (float)Math.Atan2(transform.position.z - player.transform.position.z, transform.position.x - player.transform.position.x);
 
             Vector3 d = mv - transform.position;
 
