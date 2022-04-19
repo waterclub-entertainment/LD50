@@ -1,0 +1,43 @@
+Here is the description of the most tricky material parameters. Most parameters are named according to what they do to the material, but some require a more detailed explanation.
+
+
+Main Parameters:
+
+Final Power - Final brightness (Emission Power) of the image, you need to lower this value if you using the “Gamma Rendering” Mode.
+Normal Texture - Normal texture of a mesh, materials can be used without it.
+Normal Amount - How much normal texture will apply to the effect.
+
+
+Rim Parameters:
+
+Rim Add Or Multiply - Control the behavior of the Rim mask.
+Rim Exp and Rim Exp2 2 - Control the smoothness of the Rim mask.
+
+
+Rim Noise Parameters:
+
+Rim Noise Texture - Noise texture, used for Rim mask.
+Rim Noise Tiling - Tiling of the noise texture.
+Rim Noise CA - Chromatic Aberration parameters of noise texture, useful only when Rim is set to Add.
+Rim Noise Distortion - Second noise mask texture for more distortion.
+Rim Noise Spherize - Rim will use spherical normals, set the local center position with the Rim Noise Spherize Position parameter.
+
+
+Eta Parameters:
+
+Eta - IOR (Intex of Refraction) parameter, control how much of refraction applied to the background space texture.
+Eta Fresnel Exp - Multiply the refraction by Rim mask and control its smoothness.
+Eta AA Edges Fix - Fixing edges artifacts when using with low-quality anti-aliasing, like FXAA.
+
+
+Background Textures Parameters:
+
+Rotation Axis - Axis of rotation for background textures.
+Rotation - If the rotation speed is set to 0, you can manually rotate each of the three textures.
+Stars - Base background texture with a minimal amount of controls.
+Clouds - Emissive Nebula Clouds texture, you can control the color and the emissive power of it.
+Dark Clouds - Darkening Nebula Clouds texture, have many parameters for controlling the edge glow and power of emission.
+
+
+
+Support email: sinevfx@gmail.com
